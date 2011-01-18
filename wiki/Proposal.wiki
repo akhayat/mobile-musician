@@ -18,4 +18,6 @@ I believe that I am justified in making Mobile Musician my project for this clas
 
 I also think that the project is of the appropriate difficulty for one semester, especially since I'm structuring the project so that I will have a working, but minimal project (i.e. one that plays the notes correctly when pressed) fairly quickly, but I have enough extra features to keep me busy until the end of the semester. Furthermore, if I did in fact underestimate the amount of work, I can leave out a feature that I had planned but still have a working project.  
 
-I think it is safe to make the assumption that it is a project that my classmates, my instructor, and I would find interesting, mostly because I'm fairly certain any musician would find it amusing to toy around with a music App, and four out of the five us play an instrument.  I guarantee that anyone that enjoys creating will similarly enjoy this app
+I think it is safe to make the assumption that it is a project that my classmates, my instructor, and I would find interesting, mostly because I'm fairly certain any musician would find it amusing to toy around with a music App, and four out of the five us play an instrument.  I guarantee that anyone that enjoys creating will similarly enjoy this app.
+
+Here is the [ http://prezi.com/mlwebriahlnt/cmsi-402-project-proposal/ presentation's Prezi].
