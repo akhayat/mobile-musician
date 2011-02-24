@@ -32,11 +32,11 @@ As mentioned in the previous section, the view and the controller associated wit
 
 *6.2.3.1 Top Level Diagram*
 
-See Top Level Diagram
+See Top Level Diagram in [http://code.google.com/p/mobile-musician/downloads/list Downloads]
 
 *6.2.3.2 Use Case Diagram*
 
-See Use Case Diagram
+See Use Case Diagram in [http://code.google.com/p/mobile-musician/downloads/list Downloads]
 
 *6.2.3.3*
 
