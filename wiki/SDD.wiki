@@ -139,14 +139,14 @@ The following sections provide the details of Mobile Musician.
         * scaleFromButtons: Creates a scale from the buttons activated.  
         * quitButtonPressed: Handles the quit button being pressed.  
 
-6.3.3 Detailed Interface Descriptions
+===6.3.3 Detailed Interface Descriptions===
 
 There are no interfaces in this project.  
 
-6.3.4 Detailed Design Diagrams
+===6.3.4 Detailed Design Diagrams===
 
 Diagrams to come.  
 
-6.4 Database Design and Description
+==6.4 Database Design and Description==
 
 Since there is no persistence in this application, there is no database.  
