@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* mobile_musicianAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {539, 372}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{0, 353}";
+		};
+	};
+	1D3623250D0F684500981E51 /* mobile_musicianAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1118}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 641}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* mobile-musician */ = {
 		activeExec = 0;
 		executables = (
@@ -56,14 +70,14 @@
 					PBXSymbolsDataSource_ReferenceNameID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 321691188;
-			PBXWorkspaceStateSaveDate = 321691188;
+			PBXPerProjectTemplateStateSaveDate = 321691623;
+			PBXWorkspaceStateSaveDate = 321691623;
 		};
 		perUserProjectItems = {
-			C0ACBF6B132C9284009E9689 /* PBXTextBookmark */ = C0ACBF6B132C9284009E9689 /* PBXTextBookmark */;
-			C0ACBF6C132C9284009E9689 /* PBXTextBookmark */ = C0ACBF6C132C9284009E9689 /* PBXTextBookmark */;
-			C0ACBF6E132C9284009E9689 /* PBXTextBookmark */ = C0ACBF6E132C9284009E9689 /* PBXTextBookmark */;
-			C0ACBF94132C9E37009E9689 /* PBXTextBookmark */ = C0ACBF94132C9E37009E9689 /* PBXTextBookmark */;
+			C0ACBFA4132CA038009E9689 /* PBXTextBookmark */ = C0ACBFA4132CA038009E9689 /* PBXTextBookmark */;
+			C0ACBFA6132CA038009E9689 /* PBXTextBookmark */ = C0ACBFA6132CA038009E9689 /* PBXTextBookmark */;
+			C0ACBFA7132CA038009E9689 /* PBXTextBookmark */ = C0ACBFA7132CA038009E9689 /* PBXTextBookmark */;
+			C0ACBFA8132CA038009E9689 /* PBXTextBookmark */ = C0ACBFA8132CA038009E9689 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C0ACBF53132C91F0009E9689 /* Source Control */;
 		userBuildSettings = {
@@ -132,44 +146,50 @@
 			sepNavVisRange = "{140, 617}";
 		};
 	};
-	C0ACBF6B132C9284009E9689 /* PBXTextBookmark */ = {
+	C0ACBFA4132CA038009E9689 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = C0ACBF61132C925F009E9689 /* Scale.h */;
-		name = "Scale.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 672;
-		vrLoc = 0;
-	};
-	C0ACBF6C132C9284009E9689 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C0ACBF60132C925F009E9689 /* NoteView.m */;
+		fRef = C0ACBFA5132CA038009E9689 /* NoteView.m */;
 		name = "NoteView.m: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 543;
+		vrLen = 540;
 		vrLoc = 0;
 	};
-	C0ACBF6E132C9284009E9689 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C0ACBF62132C925F009E9689 /* Scale.m */;
-		name = "Scale.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 617;
-		vrLoc = 140;
+	C0ACBFA5132CA038009E9689 /* NoteView.m */ = {
+		isa = PBXFileReference;
+		name = NoteView.m;
+		path = "/Users/akhayat1/Documents/mobile-musician/Classes/NoteView.m";
+		sourceTree = "<absolute>";
 	};
-	C0ACBF94132C9E37009E9689 /* PBXTextBookmark */ = {
+	C0ACBFA6132CA038009E9689 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = C0ACBF62132C925F009E9689 /* Scale.m */;
-		name = "Scale.m: 1";
+		fRef = 1D3623250D0F684500981E51 /* mobile_musicianAppDelegate.m */;
+		name = "mobile_musicianAppDelegate.m: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 617;
-		vrLoc = 140;
+		vrLen = 641;
+		vrLoc = 0;
+	};
+	C0ACBFA7132CA038009E9689 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* mobile_musicianAppDelegate.h */;
+		name = "mobile_musicianAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	C0ACBFA8132CA038009E9689 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* mobile_musicianAppDelegate.h */;
+		name = "mobile_musicianAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
 	};
 }

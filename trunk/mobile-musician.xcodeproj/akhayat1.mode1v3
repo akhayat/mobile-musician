@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -312,12 +310,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Scale.m</string>
+								<string>mobile_musicianAppDelegate.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,16 +325,16 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Scale.m</string>
+										<string>mobile_musicianAppDelegate.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C0ACBF94132C9E37009E9689</string>
+										<string>C0ACBFA8132CA038009E9689</string>
 										<key>history</key>
 										<array>
-											<string>C0ACBF6B132C9284009E9689</string>
-											<string>C0ACBF6C132C9284009E9689</string>
-											<string>C0ACBF6E132C9284009E9689</string>
+											<string>C0ACBFA4132CA038009E9689</string>
+											<string>C0ACBFA6132CA038009E9689</string>
+											<string>C0ACBFA7132CA038009E9689</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,14 +346,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {600, 411}}</string>
+								<string>{{0, 0}, {600, 404}}</string>
 								<key>RubberWindowFrame</key>
 								<string>235 274 898 644 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>411pt</string>
+							<string>404pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -366,14 +366,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 416}, {600, 187}}</string>
+								<string>{{0, 409}, {600, 194}}</string>
 								<key>RubberWindowFrame</key>
 								<string>235 274 898 644 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>187pt</string>
+							<string>194pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -392,9 +392,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C0ACBF95132C9E37009E9689</string>
+				<string>C0ACBF9E132C9FEB009E9689</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>C0ACBF96132C9E37009E9689</string>
+				<string>C0ACBF9F132C9FEB009E9689</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -533,7 +533,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>C0ACBF51132C91F0009E9689</string>
-		<string>/Users/akhayat1/Documents/workspace/mobile-musician/mobile-musician.xcodeproj</string>
+		<string>/Users/akhayat1/Documents/mobile-musician/mobile-musician.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>235 274 898 644 0 0 1920 1178 </string>
@@ -613,7 +613,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>C0ACBF51132C91F0009E9689</string>
-				<string>C0ACBF97132C9E37009E9689</string>
+				<string>C0ACBFA0132C9FEB009E9689</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
