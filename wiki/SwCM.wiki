@@ -1,0 +1,11 @@
+#summary Software Configuration Management Document
+
+= Software Configuration Management Document =
+
+== 7.0 Introduction ==
+
+This Software Configuration Management Document describes the Configuration Management of the Mobile Musician Application, or the process of identifying, controlling, reporting, and auditing of the configuration of this project.  Anthony Khayat will perform all configuration management for Mobile Musician.
+
+== SwCM Activities ==
+
+
