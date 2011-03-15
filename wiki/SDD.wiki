@@ -42,7 +42,7 @@ See Use Case Diagram in [http://code.google.com/p/mobile-musician/downloads/list
 
 ==6.3 CSC and CSU Description==
 
-Unsurprisingly, the three CSC's of the project are the “Mobile Musician Models,” “Mobile Musician View Controllers,” and “Mobile Musician View.”  In the model CSC, the interfaces are Note, Scale, Recorder, and SoundPlayer.  In the views CSC, the CSUs are NoteView, MenuView, ChangeScaleView, and CreateScaleView.  There is one controller for each view, so there is the NoteViewController, MenuViewController, ChangeScaleViewController, and the CreateScaleViewController.  
+Unsurprisingly, the three CSC's of the project are the “Mobile Musician Models,” “Mobile Musician View Controllers,” and “Mobile Musician View.”  In the model CSC, the classes are Note, Scale, Recorder, and SoundPlayer.  In the views CSC, the CSUs are NoteView, MenuView, ChangeScaleView, and CreateScaleView.  There is one controller for each view, so there is the NoteViewController, MenuViewController, ChangeScaleViewController, and the CreateScaleViewController.  
 
 ===6.3.1 Detailed Class Descriptions===
 
