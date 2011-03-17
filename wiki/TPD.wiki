@@ -205,7 +205,7 @@ Tests full and complete functionality of Mobile Musician.
 
 == 8.5 Test Configuration Control ==
 
-  A majority of the testing is done graphically, so configuration control is unnecessary for those.  However, some tests are made in test files using assertions.  These tests will be committed along with the project in a directory called test.  
+A majority of the testing is done graphically, so configuration control is unnecessary for those.  However, some tests are made in test files using assertions.  These tests will be committed along with the project in a directory called test.  
 
 == 8.6 Items Not Tested ==
 
@@ -214,5 +214,3 @@ Every item in Mobile Musician is currently being (or planned on being) tested.
 == 8.7 Test Verification Matrix ==
 
 This item should appear in [http://code.google.com/p/mobile-musician/downloads/list Downloads]
-
-== 8.5 
