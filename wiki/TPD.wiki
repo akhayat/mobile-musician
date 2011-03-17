@@ -57,7 +57,7 @@ White box testing to verify that the correct interval buttons appear int he corr
   # Run the Mobile Musician Application.
   # Check the console for SoundPlayer Test failures.
 
-==== 8.2.2.4 NoteView Test ====
+==== 8.2.2.4 NoteView Test Procedure ====
 
   # Run the Mobile Musician Application.
   # Verify that there are 48 evenly spaced buttons.
@@ -65,14 +65,14 @@ White box testing to verify that the correct interval buttons appear int he corr
   # Ensure that there is a menu button in the bottom of the screen.
   # Ensure that there is a record button in the bottom left.
 
-==== 8.2.2.5 MenuView Test =====
+==== 8.2.2.5 MenuView Test Procedure =====
 
   # Run the Mobile Musician Application.
   # Touch the Menu button.
   # A new Menu Window should appear.  
   # Verify that there are change scale, change root, and display note names buttons appear.  
 
-==== 8.2.2.6 ChangeScaleView ====
+==== 8.2.2.6 ChangeScaleView Test Procedure ====
 
   # Run the Mobile Musician Application.
   # Touch the Menu Button.
@@ -80,7 +80,7 @@ White box testing to verify that the correct interval buttons appear int he corr
   # A new Change Scale Window should appear
   # Verify that the Predefined Scales and Create New Buttons appear.
  
-==== 8.2.2.7 CreateScaleView ====
+==== 8.2.2.7 CreateScaleView Test Procedure ====
 
   # Run the Mobile Musician Application.
   # Touch the Menu Button.
@@ -90,3 +90,129 @@ White box testing to verify that the correct interval buttons appear int he corr
   # Verify that there are twelve Interval Buttons and a Cancel Button.
 
 == 8.3 Integration Test Plan ==
+
+Integration tests are meant to test how multiple modules interact.  This is mostly seen in the view controllers.  
+
+=== 8.3.1 Integration Tests Planned ===
+
+==== 8.3.1.1 Sound ====
+
+Whitebox test to ensure that Notes play sounds.
+
+==== 8.3.1.2 Change Scale ====
+
+Whitebox test to ensure that the arrangement of notes change when a scale is changed.
+
+==== 8.3.1.3 Note Name Toggle ====
+
+Whitebox test to ensure notenames are toggled on and off when the button is pressed in the Menu.
+
+==== 8.3.1.4 Record ====
+
+Whitebox test to ensure a sequence is recorded and able to play back when the button is pressed. 
+
+==== 8.3.1.5 Create Scale ====
+
+Whitebox test to ensure that the arrangement of notes changes when the button is pressed.
+
+==== 8.3.1.6 Pitch ====
+
+Whitebox test to ensure that Note Buttons have the correct pitches. 
+
+=== 8.3.2 Integration Test Procedures ===
+
+==== 8.3.2.1 Sound Test Procedure ====
+
+  # Run the Mobile Musician Application.
+  # Press a Note Button.
+  # It should emit a sound.
+  # Press a different Note Button.
+  # It should emit a difference sound.
+
+==== 8.3.2.2 Change Scale Test Procedure ====
+
+  # Run the Mobile Musician Application.
+  # Touch the Menu Button.
+  # Touch the Change Scale Button.
+  # Touch a scale.
+  # The Change Scale Menu should quit automatically after this.
+  # Touch the cancel button
+  # The Note Buttons should automatically have readjusted according to the new scale.
+
+==== 8.3.2.3 Note Name Toggle Test Procedure ====
+
+  # Run the Mobile Musician Application.
+  # Touch the Toggle Names Button.
+  # Touch the Close Menu Button.
+  # The Note names should be off.
+  # Touch the Menu Button.
+  # Touch The Toggle Names Button.
+  # Touch the Close Menu Button.
+  # The Note Names should be displayed again.
+
+==== 8.2.3.4 Record Test Procedure ====
+
+  # Run the Mobile Musician Application.
+  # Press Record.
+  # Play some notes until it stops recording.
+  # Verify that a Play Button has not appeared next to Record.
+  # Press Play.
+  # Verify that the same notes played are played back.
+  # Repeat steps 2 and 3.
+  # Press Play.
+  # The first notes should have been overwritten.
+
+==== 8.3.2.5 Create Scale Test Procedure ====
+
+  # Run the Mobile Musician Application.
+  # Touch the Menu Button.
+  # Touch the Change Scale Button.
+  # Touch the Create Scale Button.
+  # Choose a root note.
+  # Press the Interval buttons you wish to create the steps necessary for your scale.
+  # Press Done.
+  # You should be returned to the Note View.
+  # Verify that the notes are arranged with the chosen root and the created scale.  
+
+==== 8.3.2.5.6 Pitch Test Procedure ====
+  
+  # Run the Mobile Musician Application.
+  # Touch a Note Button.
+  # Check the console to ensure the proper pitch is displayed.
+
+== 8.4 Acceptance Test Plan ==
+
+The acceptance test tests that the entire program is running according to the requirements.
+
+=== 8.4.1 Acceptance Test Planned ===
+
+==== 8.4.1.1 Mobile Musician Test ====
+
+Tests full and complete functionality of Mobile Musician.
+
+=== 8.4.2 Acceptance Test Procedures ===
+
+  # Run the Mobile Musician Application.
+  # Look in the console.  It should say that all assertions passed.
+  # Verify that the notes are arranged in the default order with note names on. 
+  # Retest All items from the integration test.
+  # Press the Menu Button.
+  # The Menu Windows should appear.
+  # Press the Change Root button.
+  # Press the Close Button. The Menu Windows should close.
+  # The Root should have adjusted to the new selection.
+  # Close Mobile Musician.
+
+== 8.5 Test Configuration Control ==
+
+  A majority of the testing is done graphically, so configuration control is unnecessary for those.  However, some tests are made in test files using assertions.  These tests will be committed along with the project in a directory called test.  
+
+== 8.6 Items Not Tested ==
+
+Every item in Mobile Musician is currently being (or planned on being) tested.  
+
+== 8.7 Test Verification Matrix ==
+
+This item should appear in [http://code.google.com/p/mobile-musician/downloads/list Downloads]
+
+== 8.5 
