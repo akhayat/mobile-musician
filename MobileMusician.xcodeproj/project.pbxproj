@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MobileMusicianAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MobileMusicianAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NoteViewController.m */; };
+		C04863AE133C76B2009972F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04863AD133C76B2009972F0 /* AudioToolbox.framework */; };
+		C04863BC133C76C9009972F0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04863BB133C76C9009972F0 /* OpenAL.framework */; };
+		C04863D7133C76FA009972F0 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = C04863D5133C76FA009972F0 /* OpenALSupport.c */; };
+		C04863F3133C771C009972F0 /* P200 Piano A#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863DE133C771B009972F0 /* P200 Piano A#2.caf */; };
+		C04863F4133C771C009972F0 /* P200 Piano A#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863DF133C771B009972F0 /* P200 Piano A#3.caf */; };
+		C04863F5133C771C009972F0 /* P200 Piano A#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E0133C771B009972F0 /* P200 Piano A#4.caf */; };
+		C04863F6133C771C009972F0 /* P200 Piano A#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E1133C771B009972F0 /* P200 Piano A#5.caf */; };
+		C04863F7133C771C009972F0 /* P200 Piano A#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E2133C771B009972F0 /* P200 Piano A#7.caf */; };
+		C04863F8133C771C009972F0 /* P200 Piano C10.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E3133C771B009972F0 /* P200 Piano C10.caf */; };
+		C04863F9133C771C009972F0 /* P200 Piano C7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E4133C771B009972F0 /* P200 Piano C7.caf */; };
+		C04863FA133C771C009972F0 /* P200 Piano D#8.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E5133C771B009972F0 /* P200 Piano D#8.caf */; };
+		C04863FB133C771C009972F0 /* P200 Piano D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E6133C771B009972F0 /* P200 Piano D2.caf */; };
+		C04863FC133C771C009972F0 /* P200 Piano D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E7133C771B009972F0 /* P200 Piano D3.caf */; };
+		C04863FD133C771C009972F0 /* P200 Piano D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E8133C771B009972F0 /* P200 Piano D4.caf */; };
+		C04863FE133C771C009972F0 /* P200 Piano D5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863E9133C771B009972F0 /* P200 Piano D5.caf */; };
+		C04863FF133C771C009972F0 /* P200 Piano D6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863EA133C771B009972F0 /* P200 Piano D6.caf */; };
+		C0486400133C771C009972F0 /* P200 Piano F#2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863EB133C771B009972F0 /* P200 Piano F#2.caf */; };
+		C0486401133C771C009972F0 /* P200 Piano F#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863EC133C771B009972F0 /* P200 Piano F#3.caf */; };
+		C0486402133C771C009972F0 /* P200 Piano F#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863ED133C771B009972F0 /* P200 Piano F#4.caf */; };
+		C0486403133C771C009972F0 /* P200 Piano F#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863EE133C771B009972F0 /* P200 Piano F#5.caf */; };
+		C0486404133C771C009972F0 /* P200 Piano F#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863EF133C771B009972F0 /* P200 Piano F#6.caf */; };
+		C0486405133C771C009972F0 /* P200 Piano F#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863F0133C771B009972F0 /* P200 Piano F#7.caf */; };
+		C0486406133C771C009972F0 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863F1133C771C009972F0 /* P200 Piano G#9.caf */; };
+		C0486407133C771C009972F0 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = C04863F2133C771C009972F0 /* Piano.plist */; };
+		C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0486409133C772A009972F0 /* SoundBankPlayer.m */; };
+		C076FC241320A6C400274EE7 /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC231320A6C400274EE7 /* Scale.m */; };
+		C076FC311320C40700274EE7 /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC301320C40700274EE7 /* NoteView.m */; };
+		C092F163130A140E0014A226 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C092F162130A140E0014A226 /* Note.m */; };
+		C0ACC0CF132F54AE009E9689 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0ACC0CE132F54AE009E9689 /* NoteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MobileMusicianAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileMusicianAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MobileMusicianAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileMusicianAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MobileMusician.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMusician.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MobileMusician_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileMusician_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MobileMusician-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobileMusician-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C04863AD133C76B2009972F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C04863BB133C76C9009972F0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C04863D5133C76FA009972F0 /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
+		C04863D6133C76FA009972F0 /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALSupport.h; sourceTree = "<group>"; };
+		C04863DE133C771B009972F0 /* P200 Piano A#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#2.caf"; sourceTree = "<group>"; };
+		C04863DF133C771B009972F0 /* P200 Piano A#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#3.caf"; sourceTree = "<group>"; };
+		C04863E0133C771B009972F0 /* P200 Piano A#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#4.caf"; sourceTree = "<group>"; };
+		C04863E1133C771B009972F0 /* P200 Piano A#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#5.caf"; sourceTree = "<group>"; };
+		C04863E2133C771B009972F0 /* P200 Piano A#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano A#7.caf"; sourceTree = "<group>"; };
+		C04863E3133C771B009972F0 /* P200 Piano C10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano C10.caf"; sourceTree = "<group>"; };
+		C04863E4133C771B009972F0 /* P200 Piano C7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano C7.caf"; sourceTree = "<group>"; };
+		C04863E5133C771B009972F0 /* P200 Piano D#8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D#8.caf"; sourceTree = "<group>"; };
+		C04863E6133C771B009972F0 /* P200 Piano D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D2.caf"; sourceTree = "<group>"; };
+		C04863E7133C771B009972F0 /* P200 Piano D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D3.caf"; sourceTree = "<group>"; };
+		C04863E8133C771B009972F0 /* P200 Piano D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D4.caf"; sourceTree = "<group>"; };
+		C04863E9133C771B009972F0 /* P200 Piano D5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D5.caf"; sourceTree = "<group>"; };
+		C04863EA133C771B009972F0 /* P200 Piano D6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano D6.caf"; sourceTree = "<group>"; };
+		C04863EB133C771B009972F0 /* P200 Piano F#2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#2.caf"; sourceTree = "<group>"; };
+		C04863EC133C771B009972F0 /* P200 Piano F#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#3.caf"; sourceTree = "<group>"; };
+		C04863ED133C771B009972F0 /* P200 Piano F#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#4.caf"; sourceTree = "<group>"; };
+		C04863EE133C771B009972F0 /* P200 Piano F#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#5.caf"; sourceTree = "<group>"; };
+		C04863EF133C771B009972F0 /* P200 Piano F#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#6.caf"; sourceTree = "<group>"; };
+		C04863F0133C771B009972F0 /* P200 Piano F#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano F#7.caf"; sourceTree = "<group>"; };
+		C04863F1133C771C009972F0 /* P200 Piano G#9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "P200 Piano G#9.caf"; sourceTree = "<group>"; };
+		C04863F2133C771C009972F0 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Piano.plist; sourceTree = "<group>"; };
+		C0486408133C772A009972F0 /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundBankPlayer.h; path = "../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.h"; sourceTree = SOURCE_ROOT; };
+		C0486409133C772A009972F0 /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundBankPlayer.m; path = "../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m"; sourceTree = SOURCE_ROOT; };
+		C076FC221320A6C400274EE7 /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+		C076FC231320A6C400274EE7 /* Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scale.m; sourceTree = "<group>"; };
+		C076FC2F1320C40700274EE7 /* NoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteView.h; sourceTree = "<group>"; };
+		C076FC301320C40700274EE7 /* NoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
+		C092F161130A140E0014A226 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		C092F162130A140E0014A226 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C0ACC0CE132F54AE009E9689 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C04863AE133C76B2009972F0 /* AudioToolbox.framework in Frameworks */,
+				C04863BC133C76C9009972F0 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MobileMusicianAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MobileMusicianAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* NoteViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* NoteViewController.m */,
+				C076FC2F1320C40700274EE7 /* NoteView.h */,
+				C076FC301320C40700274EE7 /* NoteView.m */,
+				C076FC221320A6C400274EE7 /* Scale.h */,
+				C076FC231320A6C400274EE7 /* Scale.m */,
+				C092F161130A140E0014A226 /* Note.h */,
+				C092F162130A140E0014A226 /* Note.m */,
+				C04863D5133C76FA009972F0 /* OpenALSupport.c */,
+				C04863D6133C76FA009972F0 /* OpenALSupport.h */,
+				C0486408133C772A009972F0 /* SoundBankPlayer.h */,
+				C0486409133C772A009972F0 /* SoundBankPlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MobileMusician.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C04863DD133C771B009972F0 /* Sounds */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MobileMusician_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACC0CE132F54AE009E9689 /* NoteViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MobileMusician-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				C04863AD133C76B2009972F0 /* AudioToolbox.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				C04863BB133C76C9009972F0 /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C04863DD133C771B009972F0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C04863DE133C771B009972F0 /* P200 Piano A#2.caf */,
+				C04863DF133C771B009972F0 /* P200 Piano A#3.caf */,
+				C04863E0133C771B009972F0 /* P200 Piano A#4.caf */,
+				C04863E1133C771B009972F0 /* P200 Piano A#5.caf */,
+				C04863E2133C771B009972F0 /* P200 Piano A#7.caf */,
+				C04863E3133C771B009972F0 /* P200 Piano C10.caf */,
+				C04863E4133C771B009972F0 /* P200 Piano C7.caf */,
+				C04863E5133C771B009972F0 /* P200 Piano D#8.caf */,
+				C04863E6133C771B009972F0 /* P200 Piano D2.caf */,
+				C04863E7133C771B009972F0 /* P200 Piano D3.caf */,
+				C04863E8133C771B009972F0 /* P200 Piano D4.caf */,
+				C04863E9133C771B009972F0 /* P200 Piano D5.caf */,
+				C04863EA133C771B009972F0 /* P200 Piano D6.caf */,
+				C04863EB133C771B009972F0 /* P200 Piano F#2.caf */,
+				C04863EC133C771B009972F0 /* P200 Piano F#3.caf */,
+				C04863ED133C771B009972F0 /* P200 Piano F#4.caf */,
+				C04863EE133C771B009972F0 /* P200 Piano F#5.caf */,
+				C04863EF133C771B009972F0 /* P200 Piano F#6.caf */,
+				C04863F0133C771B009972F0 /* P200 Piano F#7.caf */,
+				C04863F1133C771C009972F0 /* P200 Piano G#9.caf */,
+				C04863F2133C771C009972F0 /* Piano.plist */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MobileMusician */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MobileMusician" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileMusician;
+			productName = MobileMusician;
+			productReference = 1D6058910D05DD3D006BFB54 /* MobileMusician.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = LMU;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MobileMusician" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MobileMusician */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C0ACC0CF132F54AE009E9689 /* NoteViewController.xib in Resources */,
+				C04863F3133C771C009972F0 /* P200 Piano A#2.caf in Resources */,
+				C04863F4133C771C009972F0 /* P200 Piano A#3.caf in Resources */,
+				C04863F5133C771C009972F0 /* P200 Piano A#4.caf in Resources */,
+				C04863F6133C771C009972F0 /* P200 Piano A#5.caf in Resources */,
+				C04863F7133C771C009972F0 /* P200 Piano A#7.caf in Resources */,
+				C04863F8133C771C009972F0 /* P200 Piano C10.caf in Resources */,
+				C04863F9133C771C009972F0 /* P200 Piano C7.caf in Resources */,
+				C04863FA133C771C009972F0 /* P200 Piano D#8.caf in Resources */,
+				C04863FB133C771C009972F0 /* P200 Piano D2.caf in Resources */,
+				C04863FC133C771C009972F0 /* P200 Piano D3.caf in Resources */,
+				C04863FD133C771C009972F0 /* P200 Piano D4.caf in Resources */,
+				C04863FE133C771C009972F0 /* P200 Piano D5.caf in Resources */,
+				C04863FF133C771C009972F0 /* P200 Piano D6.caf in Resources */,
+				C0486400133C771C009972F0 /* P200 Piano F#2.caf in Resources */,
+				C0486401133C771C009972F0 /* P200 Piano F#3.caf in Resources */,
+				C0486402133C771C009972F0 /* P200 Piano F#4.caf in Resources */,
+				C0486403133C771C009972F0 /* P200 Piano F#5.caf in Resources */,
+				C0486404133C771C009972F0 /* P200 Piano F#6.caf in Resources */,
+				C0486405133C771C009972F0 /* P200 Piano F#7.caf in Resources */,
+				C0486406133C771C009972F0 /* P200 Piano G#9.caf in Resources */,
+				C0486407133C771C009972F0 /* Piano.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MobileMusicianAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* NoteViewController.m in Sources */,
+				C092F163130A140E0014A226 /* Note.m in Sources */,
+				C076FC241320A6C400274EE7 /* Scale.m in Sources */,
+				C076FC311320C40700274EE7 /* NoteView.m in Sources */,
+				C04863D7133C76FA009972F0 /* OpenALSupport.c in Sources */,
+				C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MobileMusician_Prefix.pch;
+				INFOPLIST_FILE = "MobileMusician-Info.plist";
+				PRODUCT_NAME = MobileMusician;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MobileMusician_Prefix.pch;
+				INFOPLIST_FILE = "MobileMusician-Info.plist";
+				PRODUCT_NAME = MobileMusician;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MobileMusician" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MobileMusician" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
