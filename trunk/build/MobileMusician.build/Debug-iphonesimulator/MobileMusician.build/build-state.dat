@@ -1,1167 +1,0 @@
-TMobileMusician
-v7
-r0
-t322891001.447074
-cCheck dependencies
-cProcessInfoPlistFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Info.plist MobileMusician-Info.plist
-cCompileXIB /Users/akhayat1/Developer/MobileMusician/MainWindow.xib
-cCompileXIB /Users/akhayat1/Developer/MobileMusician/NoteViewController.xib
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#2.caf" "Sounds/P200 Piano A#2.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#3.caf" "Sounds/P200 Piano A#3.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#4.caf" "Sounds/P200 Piano A#4.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#5.caf" "Sounds/P200 Piano A#5.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#7.caf" "Sounds/P200 Piano A#7.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C10.caf" "Sounds/P200 Piano C10.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C7.caf" "Sounds/P200 Piano C7.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D#8.caf" "Sounds/P200 Piano D#8.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D2.caf" "Sounds/P200 Piano D2.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D3.caf" "Sounds/P200 Piano D3.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D4.caf" "Sounds/P200 Piano D4.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D5.caf" "Sounds/P200 Piano D5.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D6.caf" "Sounds/P200 Piano D6.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#2.caf" "Sounds/P200 Piano F#2.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#3.caf" "Sounds/P200 Piano F#3.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#4.caf" "Sounds/P200 Piano F#4.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#5.caf" "Sounds/P200 Piano F#5.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#6.caf" "Sounds/P200 Piano F#6.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#7.caf" "Sounds/P200 Piano F#7.caf"
-cCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano G#9.caf" "Sounds/P200 Piano G#9.caf"
-cCopyPlistFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Piano.plist Sounds/Piano.plist
-cProcessPCH /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch.gch MobileMusician_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-hkewfncvkosvttfjmycdrsaxbtpe/MobileMusician_Prefix.pch.gch MobileMusician_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/main.o /Users/akhayat1/Developer/MobileMusician/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianAppDelegate.o /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.o /Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Note.o /Users/akhayat1/Developer/MobileMusician/Classes/Note.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Scale.o /Users/akhayat1/Developer/MobileMusician/Classes/Scale.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteView.o /Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/OpenALSupport.o /Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/SoundBankPlayer.o /Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician normal i386
-cGenerateDSYMFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app.dSYM /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician
-cTouch /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004CC1224600000000001EA9C0
-t1287725638
-s2009536
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004CC1222F0000000000000A23
-t1287725615
-s2595
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/ExtendedAudioFile.h
-c000000004CC1222F0000000000005E3B
-t1287725615
-s24123
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004CC1226100000000000064FD
-t1287725665
-s25853
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004CC122610000000000001F45
-t1287725665
-s8005
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004CC1226400000000000246A0
-t1287725668
-s149152
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.h
-c000000004D8C44CE0000000000000FD2
-t1301038286
-s4050
-i<Foundation/Foundation.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m
-c000000004D8C453500000000000021B0
-t1301038389
-s8624
-i<AudioToolbox/AudioToolbox.h>
-i"SoundBankPlayer.h"
-i"OpenALSupport.h"
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#2.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#3.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#4.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#5.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#7.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano C10.caf
-c000000004D4C52AA0000000000007380
-t1296847530
-s29568
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano C7.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D#8.caf
-c000000004D4C52AA0000000000009D88
-t1296847530
-s40328
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D2.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D3.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D4.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D5.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D6.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#2.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#3.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#4.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#5.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#6.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#7.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano G#9.caf
-c000000004D4C52AA0000000000007E36
-t1296847530
-s32310
-
-N/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Sounds/Piano.plist
-c000000004D4C52AA0000000000000673
-t1296847530
-s1651
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.h
-c000000004D769B8E00000000000001ED
-t1299618702
-s493
-i<UIKit/UIKit.h>
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m
-c000000004D769B670000000000000AB0
-t1299618663
-s2736
-i"MobileMusicianAppDelegate.h"
-i"NoteViewController.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.h
-c000000004D7696C800000000000001C6
-t1299617480
-s454
-i<UIKit/UIKit.h>
-i"Note.h"
-i"Scale.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.m
-c000000004D7696D10000000000000740
-t1299617489
-s1856
-i"MobileMusicianViewController.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/Note.h
-c000000004D8EB24A0000000000000422
-t1301197386
-s1058
-i<Foundation/Foundation.h>
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/Note.m
-c000000004D8EB3EA0000000000000558
-t1301197802
-s1368
-i"Note.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.h
-c000000004D59ED120000000000000103
-t1297739026
-s259
-i<Foundation/Foundation.h>
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.m
-c000000004D59EC5200000000000000F9
-t1297738834
-s249
-i"NotePlayer.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/NoteView.h
-c000000004D882398000000000000015F
-t1300767640
-s351
-i<UIKit/UIKit.h>
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m
-c000000004D8838B100000000000001BF
-t1300773041
-s447
-i"NoteView.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.h
-c000000004D8C497A000000000000028D
-t1301039482
-s653
-i<UIKit/UIKit.h>
-i"SoundBankPlayer.h"
-i"NoteView.h"
-i"Note.h"
-i"Scale.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m
-c000000004D8EB5750000000000000D89
-t1301198197
-s3465
-i"NoteViewController.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c
-c000000004D4C52AA000000000000187D
-t1296847530
-s6269
-i"OpenALSupport.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.h
-c000000004D4C52AA0000000000000BC2
-t1296847530
-s3010
-i<AudioToolbox/AudioToolbox.h>
-i<AudioToolbox/ExtendedAudioFile.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/Scale.h
-c000000004D75FFE700000000000002D7
-t1299578855
-s727
-i<Foundation/Foundation.h>
-i"Note.h"
-
-N/Users/akhayat1/Developer/MobileMusician/Classes/Scale.m
-c000000004D8EB3A1000000000000030F
-t1301197729
-s783
-i"Scale.h"
-
-N/Users/akhayat1/Developer/MobileMusician/MainWindow.xib
-c000000004D882AA80000000000006DCD
-t1300769448
-s28109
-
-N/Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib
-c000000004D769AB40000000000004209
-t1299618484
-s16905
-
-N/Users/akhayat1/Developer/MobileMusician/MobileMusician_Prefix.pch
-c000000004D59DC2F00000000000000C5
-t1297734703
-s197
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/akhayat1/Developer/MobileMusician/NoteView.xib
-c000000004D76986C0000000000004209
-t1299617900
-s16905
-
-N/Users/akhayat1/Developer/MobileMusician/NoteViewController.xib
-c000000004D8818B50000000000002D74
-t1300764853
-s11636
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#2.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#3.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#4.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#5.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#7.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano C10.caf
-c000000004D4C52AA0000000000007380
-t1296847530
-s29568
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano C7.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D#8.caf
-c000000004D4C52AA0000000000009D88
-t1296847530
-s40328
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D2.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D3.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D4.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D5.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D6.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#2.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#3.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#4.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#5.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#6.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#7.caf
-c000000004D4C52AA0000000000010A00
-t1296847530
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano G#9.caf
-c000000004D4C52AA0000000000007E36
-t1296847530
-s32310
-
-N/Users/akhayat1/Developer/MobileMusician/Sounds/Piano.plist
-c000000004D4C52AA0000000000000673
-t1296847530
-s1651
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app
-t1301198201
-s1020
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app.dSYM
-t1301198201
-s102
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Info.plist
-t1297736000
-s619
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MainWindow.nib
-t1300769456
-s1580
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician
-t1301198201
-s47000
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusicianViewController.nib
-t1299618611
-s1193
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/NoteView.nib
-t1299617913
-s1193
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/NoteViewController.nib
-t1300764864
-s663
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#2.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#3.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#4.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#5.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#7.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C10.caf
-t1301037274
-s29568
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C7.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D#8.caf
-t1301037274
-s40328
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D2.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D3.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D4.caf
-t1301037274
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D5.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D6.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#2.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#3.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#4.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#5.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#6.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#7.caf
-t1301037275
-s68096
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/P200 Piano G#9.caf
-t1301037275
-s32310
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Piano.plist
-t1301037275
-s550
-
-N/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/PkgInfo
-t1297736000
-s8
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusician.LinkFileList
-c000000004D8C40DA000000000000048C
-t1301037274
-s1164
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianAppDelegate.o
-t1301197461
-s52648
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianViewController.o
-t1299616238
-s42964
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Note.o
-t1301197808
-s14200
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NotePlayer.o
-t1297738947
-s6076
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteView.o
-t1300773488
-s39040
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.mi
-t1300827641
-s978250
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.o
-t1301198201
-s51188
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/OpenALSupport.o
-t1301037276
-s11888
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Scale.o
-t1301197808
-s10968
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/SoundBankPlayer.o
-t1301038394
-s33984
-
-N/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/main.o
-t1297736003
-s6308
-
-N/Users/akhayat1/Developer/MobileMusician/main.m
-c000000004D59DC2F0000000000000172
-t1297734703
-s370
-i<UIKit/UIKit.h>
-
-N/Users/akhayat1/Developer/hollance-SoundBankPlayer-088bc45/Classes/OpenALSupport.h
-c000000004D4C52AA0000000000000BC2
-t1296847530
-s3010
-i<AudioToolbox/AudioToolbox.h>
-i<AudioToolbox/ExtendedAudioFile.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-
-N/Users/akhayat1/Developer/hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.h
-c000000004D8C44CE0000000000000FD2
-t1301038286
-s4050
-i<Foundation/Foundation.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-
-N/var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch.gch
-t1297736002
-s15453392
-
-N/var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-hkewfncvkosvttfjmycdrsaxbtpe/MobileMusician_Prefix.pch.gch
-t1301037275
-s2138480
-
-NMobileMusician-Info.plist
-c000000004D59DC2F000000000000038D
-t1297734703
-s909
-
-C<C0014:'CompileC NoteViewController.o':P9:W0>
-s322520440.941859
-e322520441.168500
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m322520440#322520441#0(0"0(0#0#69"/Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m7307466864130478080#2022"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /Users/akhayat1/Developer/MobileMusician/MobileMusician_Prefix.pch -fpch-preprocess -E /Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.mi0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies322891001#322891001#0(0"0(0#1#0"8614594144#0"0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianAppDelegate.o /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322890261.694982
-e322890261.865928
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianAppDelegate.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m322890261#322890261#0(0"0(0#0#76"/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m7019250798793411584#2126"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianAppDelegate.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianViewController.o /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s321309037.982025
-e321309038.198234
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianViewController.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.m321309037#321309038#0(0"0(0#0#79"/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.m8617539008#2132"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianViewController.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusicianViewController.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Note.o /Users/akhayat1/Developer/MobileMusician/Classes/Note.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322890607.961042
-e322890608.223381
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Note.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/Note.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/akhayat1/Developer/MobileMusician/Classes/Note.m322890607#322890608#0(0"0(0#0#55"/Users/akhayat1/Developer/MobileMusician/Classes/Note.m8613931968#2084"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/Note.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Note.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NotePlayer.o /Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319431747.654325
-e319431747.831420
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NotePlayer.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.m319431747#319431747#0(0"0(0#0#61"/Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.m8618545056#2096"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/NotePlayer.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NotePlayer.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteView.o /Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322466288.245708
-e322466288.460930
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteView.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m322466288#322466288#0(0"0(0#0#59"/Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m8621237632#2092"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/NoteView.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteView.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.o /Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322891001.201257
-e322891001.384836
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m322891001#322891001#0(0"0(0#0#69"/Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m8614698944#2112"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/NoteViewController.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/NoteViewController.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/OpenALSupport.o /Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c normal i386 c com.apple.compilers.gcc.4_2
-s322730075.878800
-e322730076.556164
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/OpenALSupport.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c322730075#322730076#0(0"0(0#0#64"/Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c8619805952#2048"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-hkewfncvkosvttfjmycdrsaxbtpe/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/OpenALSupport.c -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/OpenALSupport.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Scale.o /Users/akhayat1/Developer/MobileMusician/Classes/Scale.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322890608.112687
-e322890608.291447
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Scale.o
-x/Users/akhayat1/Developer/MobileMusician/Classes/Scale.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/akhayat1/Developer/MobileMusician/Classes/Scale.m322890608#322890608#0(0"0(0#0#56"/Users/akhayat1/Developer/MobileMusician/Classes/Scale.m8614276320#2086"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/Classes/Scale.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/Scale.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/SoundBankPlayer.o /Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s322731194.395745
-e322731194.595208
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/SoundBankPlayer.o
-x/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m322731194#322731194#0(0"0(0#0#102"/Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m8614447648#2142"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/../hollance-SoundBankPlayer-088bc45/Classes/SoundBankPlayer.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/SoundBankPlayer.o0#
-
-CCompileC build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/main.o /Users/akhayat1/Developer/MobileMusician/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319428802.967130
-e319428803.077955
-r1
-xCompileC
-xbuild/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/main.o
-x/Users/akhayat1/Developer/MobileMusician/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/akhayat1/Developer/MobileMusician/main.m319428802#319428803#0(0"0(0#0#47"/Users/akhayat1/Developer/MobileMusician/main.m8619656544#2076"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -include /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch -c /Users/akhayat1/Developer/MobileMusician/main.m -o /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/akhayat1/Developer/MobileMusician/MainWindow.xib
-s322462255.585626
-e322462256.072847
-r1
-xCompileXIB
-x/Users/akhayat1/Developer/MobileMusician/MainWindow.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/akhayat1/Developer/MobileMusician/MainWindow.xib:20: warning: 'Note View Controller' has both its 'NIB Name' property set and its 'view' outlet connected. This configuration is not supported.
-lSLF07#2@25"CompileXIB MainWindow.xib322462255#322462256#0(240"/* com.apple.ibtool.document.warnings *//Users/akhayat1/Developer/MobileMusician/MainWindow.xib:20: warning: 'Note View Controller' has both its 'NIB Name' property set and its 'view' outlet connected. This configuration is not supported.1(22@129"'Note View Controller' has both its 'NIB Name' property set and its 'view' outlet connected. This configuration is not supported.322462256#18446744073709551615#0#0(6@55"/Users/akhayat1/Developer/MobileMusician/MainWindow.xib322462248#20#0#20#0#0"0(0#0#55"/Users/akhayat1/Developer/MobileMusician/MainWindow.xib8619565920#583"    cd /Users/akhayat1/Developer/MobileMusician    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MainWindow.nib /Users/akhayat1/Developer/MobileMusician/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib
-s321311410.952212
-e321311411.534971
-r1
-xCompileXIB
-x/Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MobileMusicianViewController.
-lSLF07#2@43"CompileXIB MobileMusicianViewController.xib321311410#321311411#0(252"/* com.apple.ibtool.document.warnings *//Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MobileMusicianViewController.1(22@123"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MobileMusicianViewController.321311411#18446744073709551615#0#0(6@73"/Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib321311284#18446744073709551615#0#18446744073709551615#0#0"0(0#0#73"/Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib8620523456#619"    cd /Users/akhayat1/Developer/MobileMusician    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusicianViewController.nib /Users/akhayat1/Developer/MobileMusician/MobileMusicianViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/akhayat1/Developer/MobileMusician/NoteView.xib
-s321310712.931085
-e321310713.364167
-r1
-xCompileXIB
-x/Users/akhayat1/Developer/MobileMusician/NoteView.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/akhayat1/Developer/MobileMusician/NoteView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MobileMusicianViewController.
-lSLF07#2@23"CompileXIB NoteView.xib321310712#321310713#0(232"/* com.apple.ibtool.document.warnings *//Users/akhayat1/Developer/MobileMusician/NoteView.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MobileMusicianViewController.1(22@123"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on MobileMusicianViewController.321310713#18446744073709551615#0#0(6@53"/Users/akhayat1/Developer/MobileMusician/NoteView.xib321310700#18446744073709551615#0#18446744073709551615#0#0"0(0#0#53"/Users/akhayat1/Developer/MobileMusician/NoteView.xib8620128288#579"    cd /Users/akhayat1/Developer/MobileMusician    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/NoteView.nib /Users/akhayat1/Developer/MobileMusician/NoteView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/akhayat1/Developer/MobileMusician/NoteViewController.xib
-s322457663.111955
-e322457664.425540
-r1
-xCompileXIB
-x/Users/akhayat1/Developer/MobileMusician/NoteViewController.xib
-lSLF07#2@33"CompileXIB NoteViewController.xib322457663#322457664#0(0"0(0#0#63"/Users/akhayat1/Developer/MobileMusician/NoteViewController.xib8604509856#599"    cd /Users/akhayat1/Developer/MobileMusician    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/NoteViewController.nib /Users/akhayat1/Developer/MobileMusician/NoteViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCopyPlistFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Piano.plist ../hollance-SoundBankPlayer-088bc45/Sounds/Piano.plist
-r0
-
-CCopyPlistFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Piano.plist Sounds/Piano.plist
-s322730075.027846
-e322730075.397055
-r1
-xCopyPlistFile
-x/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Piano.plist
-xSounds/Piano.plist
-lSLF07#2@23"Copy Sounds/Piano.plist322730075#322730075#0(0"0(0#0#59"/Users/akhayat1/Developer/MobileMusician/Sounds/Piano.plist8616575040#404"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Sounds/Piano.plist --outdir /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#2.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#2.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#2.caf" "Sounds/P200 Piano A#2.caf"
-s322730074.855656
-e322730074.995387
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#2.caf
-xSounds/P200 Piano A#2.caf
-lSLF07#2@30"Copy Sounds/P200 Piano A#2.caf322730074#322730074#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#2.caf8617311872#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#2.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#3.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#3.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#3.caf" "Sounds/P200 Piano A#3.caf"
-s322730074.856928
-e322730075.002399
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#3.caf
-xSounds/P200 Piano A#3.caf
-lSLF07#2@30"Copy Sounds/P200 Piano A#3.caf322730074#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#3.caf8614132320#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#3.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#4.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#4.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#4.caf" "Sounds/P200 Piano A#4.caf"
-s322730074.859677
-e322730075.002554
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#4.caf
-xSounds/P200 Piano A#4.caf
-lSLF07#2@30"Copy Sounds/P200 Piano A#4.caf322730074#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#4.caf8620241120#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#4.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#5.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#5.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#5.caf" "Sounds/P200 Piano A#5.caf"
-s322730074.862413
-e322730075.006095
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#5.caf
-xSounds/P200 Piano A#5.caf
-lSLF07#2@30"Copy Sounds/P200 Piano A#5.caf322730074#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#5.caf8614111072#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#5.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#7.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano A#7.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#7.caf" "Sounds/P200 Piano A#7.caf"
-s322730074.865226
-e322730075.006254
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano A#7.caf
-xSounds/P200 Piano A#7.caf
-lSLF07#2@30"Copy Sounds/P200 Piano A#7.caf322730074#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#7.caf8620684992#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano A#7.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C10.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano C10.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C10.caf" "Sounds/P200 Piano C10.caf"
-s322730074.867770
-e322730074.958818
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano C10.caf
-xSounds/P200 Piano C10.caf
-lSLF07#2@30"Copy Sounds/P200 Piano C10.caf322730074#322730074#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano C10.caf8607999872#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano C10.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C7.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano C7.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano C7.caf" "Sounds/P200 Piano C7.caf"
-s322730074.870114
-e322730075.006392
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano C7.caf
-xSounds/P200 Piano C7.caf
-lSLF07#2@29"Copy Sounds/P200 Piano C7.caf322730074#322730075#0(0"0(0#0#65"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano C7.caf8615384928#497"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano C7.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D#8.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D#8.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D#8.caf" "Sounds/P200 Piano D#8.caf"
-s322730074.871112
-e322730074.993587
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano D#8.caf
-xSounds/P200 Piano D#8.caf
-lSLF07#2@30"Copy Sounds/P200 Piano D#8.caf322730074#322730074#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D#8.caf8620683392#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D#8.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D2.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D2.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D2.caf" "Sounds/P200 Piano D2.caf"
-s322730074.873960
-e322730074.995581
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano D2.caf
-xSounds/P200 Piano D2.caf
-lSLF07#2@29"Copy Sounds/P200 Piano D2.caf322730074#322730074#0(0"0(0#0#65"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D2.caf8615142304#497"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D2.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D3.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D3.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D3.caf" "Sounds/P200 Piano D3.caf"
-s322730074.876323
-e322730075.006530
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano D3.caf
-xSounds/P200 Piano D3.caf
-lSLF07#2@29"Copy Sounds/P200 Piano D3.caf322730074#322730075#0(0"0(0#0#65"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D3.caf8618131168#497"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D3.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D4.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D4.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D4.caf" "Sounds/P200 Piano D4.caf"
-s322730074.958959
-e322730075.002232
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano D4.caf
-xSounds/P200 Piano D4.caf
-lSLF07#2@29"Copy Sounds/P200 Piano D4.caf322730074#322730075#0(0"0(0#0#65"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D4.caf8620772672#497"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D4.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D5.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D5.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D5.caf" "Sounds/P200 Piano D5.caf"
-s322730074.993709
-e322730075.033247
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano D5.caf
-xSounds/P200 Piano D5.caf
-lSLF07#2@29"Copy Sounds/P200 Piano D5.caf322730074#322730075#0(0"0(0#0#65"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D5.caf8619486624#497"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D5.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D6.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano D6.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano D6.caf" "Sounds/P200 Piano D6.caf"
-s322730074.995675
-e322730075.033391
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano D6.caf
-xSounds/P200 Piano D6.caf
-lSLF07#2@29"Copy Sounds/P200 Piano D6.caf322730074#322730075#0(0"0(0#0#65"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D6.caf8618076704#497"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano D6.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#2.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#2.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#2.caf" "Sounds/P200 Piano F#2.caf"
-s322730074.999183
-e322730075.033668
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#2.caf
-xSounds/P200 Piano F#2.caf
-lSLF07#2@30"Copy Sounds/P200 Piano F#2.caf322730074#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#2.caf8617880384#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#2.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#3.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#3.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#3.caf" "Sounds/P200 Piano F#3.caf"
-s322730075.006622
-e322730075.030688
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#3.caf
-xSounds/P200 Piano F#3.caf
-lSLF07#2@30"Copy Sounds/P200 Piano F#3.caf322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#3.caf8617820032#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#3.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#4.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#4.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#4.caf" "Sounds/P200 Piano F#4.caf"
-s322730075.008496
-e322730075.033827
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#4.caf
-xSounds/P200 Piano F#4.caf
-lSLF07#2@30"Copy Sounds/P200 Piano F#4.caf322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#4.caf8617696608#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#4.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#5.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#5.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#5.caf" "Sounds/P200 Piano F#5.caf"
-s322730075.013277
-e322730075.034031
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#5.caf
-xSounds/P200 Piano F#5.caf
-lSLF07#2@30"Copy Sounds/P200 Piano F#5.caf322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#5.caf8617555712#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#5.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#6.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#6.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#6.caf" "Sounds/P200 Piano F#6.caf"
-s322730075.017199
-e322730075.084058
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#6.caf
-xSounds/P200 Piano F#6.caf
-lSLF07#2@30"Copy Sounds/P200 Piano F#6.caf322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#6.caf8617368768#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#6.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#7.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano F#7.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#7.caf" "Sounds/P200 Piano F#7.caf"
-s322730075.021332
-e322730075.084906
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano F#7.caf
-xSounds/P200 Piano F#7.caf
-lSLF07#2@30"Copy Sounds/P200 Piano F#7.caf322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#7.caf8617072256#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano F#7.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano G#9.caf" "../hollance-SoundBankPlayer-088bc45/Sounds/P200 Piano G#9.caf"
-r0
-
-CCpResource "build/Debug-iphonesimulator/MobileMusician.app/P200 Piano G#9.caf" "Sounds/P200 Piano G#9.caf"
-s322730075.024201
-e322730075.071689
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MobileMusician.app/P200 Piano G#9.caf
-xSounds/P200 Piano G#9.caf
-lSLF07#2@30"Copy Sounds/P200 Piano G#9.caf322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano G#9.caf8616858048#498"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/akhayat1/Developer/MobileMusician/Sounds/P200 Piano G#9.caf" /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
-CGenerateDSYMFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app.dSYM /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician
-s322891001.419635
-e322891001.443321
-r1
-xGenerateDSYMFile
-x/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app.dSYM
-x/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MobileMusician.app.dSYM build/Debug-iphonesimulator/MobileMusician.app/MobileMusician322891001#322891001#0(0"0(0#0#102"/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician8614626688#410"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician -o /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app.dSYM0#
-
-CLd /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician normal i386
-s322891001.384947
-e322891001.419496
-r1
-xLd
-x/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician
-xnormal
-xi386
-lSLF07#2@107"Link /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician322891001#322891001#0(0"0(0#0#0"8614706592#987"    cd /Users/akhayat1/Developer/MobileMusician    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -filelist /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/Objects-normal/i386/MobileMusician.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework OpenAL -o /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/MobileMusician0#
-
-CProcessInfoPlistFile /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Info.plist MobileMusician-Info.plist
-s319428800.428607
-e319428800.432848
-r1
-xProcessInfoPlistFile
-x/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Info.plist
-xMobileMusician-Info.plist
-lSLF07#2@33"Process MobileMusician-Info.plist319428800#319428800#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/MobileMusician-Info.plist8618858336#506"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MobileMusician-Info.plist -genpkginfo /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app/Info.plist0#
-
-CProcessPCH /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch.gch MobileMusician_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s319428801.510082
-e319428802.966903
-r1
-xProcessPCH
-x/var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch.gch
-xMobileMusician_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile MobileMusician_Prefix.pch319428801#319428802#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/MobileMusician_Prefix.pch8619683392#1959"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -c /Users/akhayat1/Developer/MobileMusician/MobileMusician_Prefix.pch -o /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-azdmwwobijoebxadoewgwdlehabj/MobileMusician_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-hkewfncvkosvttfjmycdrsaxbtpe/MobileMusician_Prefix.pch.gch MobileMusician_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
-s322730075.397354
-e322730075.545087
-r1
-xProcessPCH
-x/var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-hkewfncvkosvttfjmycdrsaxbtpe/MobileMusician_Prefix.pch.gch
-xMobileMusician_Prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile MobileMusician_Prefix.pch322730075#322730075#0(0"0(0#0#66"/Users/akhayat1/Developer/MobileMusician/MobileMusician_Prefix.pch8620137760#1905"    cd /Users/akhayat1/Developer/MobileMusician    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-generated-files.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-own-target-headers.hmap -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-all-target-headers.hmap -iquote /Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/MobileMusician-project-headers.hmap -F/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator -I/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/include -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources/i386 -I/Users/akhayat1/Developer/MobileMusician/build/MobileMusician.build/Debug-iphonesimulator/MobileMusician.build/DerivedSources -c /Users/akhayat1/Developer/MobileMusician/MobileMusician_Prefix.pch -o /var/folders/ue/uef0T7y4FciefwPGHEgvDE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/MobileMusician_Prefix-hkewfncvkosvttfjmycdrsaxbtpe/MobileMusician_Prefix.pch.gch0#
-
-CTouch /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app
-s322891001.443425
-e322891001.447026
-r1
-xTouch
-x/Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app
-lSLF07#2@93"Touch /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app322891001#322891001#0(0"0(0#0#0"8614542720#289"    cd /Users/akhayat1/Developer/MobileMusician    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/akhayat1/Developer/MobileMusician/build/Debug-iphonesimulator/MobileMusician.app0#
-
