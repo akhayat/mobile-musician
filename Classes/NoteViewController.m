@@ -52,15 +52,12 @@
 
 - (void)viewDidLoad {
 	
-	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], nil]];
+	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:2],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:2],
+												[NSNumber numberWithInt:2], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:2], [NSNumber numberWithInt:2], nil]];
 	
-	self.root = [[Note alloc] initWithName:A  andOctave:3];
+	self.root = [[Note alloc] initWithName:A  andOctave:2];
 	self.notes = [self.scale toArrayOfNotesFromRoot:root];
 	
 	player = [[SoundBankPlayer alloc] init];
@@ -86,7 +83,7 @@
 		[nextNoteButton addTarget:self 
 						   action:@selector(notePressed:)
 		 forControlEvents:UIControlEventTouchDown];
-		nextNoteButton.tag = nextNote.name + 12 * (nextNote.octave + i / 12);
+		nextNoteButton.tag = nextNote.name + 12 * (nextNote.octave + i / [self.scale.halfSteps count]);
 		[self.view addSubview:nextNoteButton];
 		
 		if ((y / height) % 2 == 0) {

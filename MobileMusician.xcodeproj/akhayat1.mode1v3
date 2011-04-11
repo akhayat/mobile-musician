@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C0F94C601352BDDB004B78E7</string>
+										<string>C0F94C7A1352C214004B78E7</string>
 										<key>history</key>
 										<array>
 											<string>C0FF64761339458F0008FF65</string>
@@ -339,22 +339,22 @@
 											<string>C0690AC4133F0E2100AA211A</string>
 											<string>C01E45231341619B00D24C8F</string>
 											<string>C01E45251341619B00D24C8F</string>
-											<string>C01E4555134176E300D24C8F</string>
-											<string>C09E47DA1343F7BB00F57740</string>
-											<string>C09E47DC1343F7BB00F57740</string>
-											<string>C09E47E21343F7BB00F57740</string>
 											<string>C09E47FF1344152000F57740</string>
 											<string>C09E48001344152000F57740</string>
 											<string>C09E48011344152000F57740</string>
 											<string>C09E48021344152000F57740</string>
 											<string>C09E48031344152000F57740</string>
 											<string>C0A44F4F13525121008DD115</string>
-											<string>C0A44F5013525121008DD115</string>
 											<string>C0A44F5113525121008DD115</string>
 											<string>C0A44F5213525121008DD115</string>
 											<string>C0A44F5313525121008DD115</string>
 											<string>C0A44F5413525121008DD115</string>
-											<string>C0A44F5613525121008DD115</string>
+											<string>C0F94C681352C18B004B78E7</string>
+											<string>C0F94C691352C18B004B78E7</string>
+											<string>C0F94C6A1352C18B004B78E7</string>
+											<string>C0F94C6B1352C18B004B78E7</string>
+											<string>C0F94C6C1352C18B004B78E7</string>
+											<string>C0F94C6D1352C18B004B78E7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -552,6 +552,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>C092F179130A18DA0014A226</string>
 		<string>/Users/akhayat1/Developer/mobile-musician/MobileMusician.xcodeproj</string>
 	</array>
@@ -594,6 +596,8 @@
 							<string>297pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -755,13 +759,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>C0A44F5A13525121008DD115</string>
+				<string>C0F94C6F1352C18B004B78E7</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>C0A44F5B13525121008DD115</string>
-				<string>C0A44F5C13525121008DD115</string>
-				<string>C0A44F5D13525121008DD115</string>
-				<string>C0A44F5E13525121008DD115</string>
-				<string>C0A44F5F13525121008DD115</string>
+				<string>C0F94C701352C18B004B78E7</string>
+				<string>C0F94C711352C18B004B78E7</string>
+				<string>C0F94C721352C18B004B78E7</string>
+				<string>C0F94C731352C18B004B78E7</string>
+				<string>C0F94C741352C18B004B78E7</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -923,7 +927,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>C0A44F6013525121008DD115</string>
+				<string>C0F94C751352C18B004B78E7</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
