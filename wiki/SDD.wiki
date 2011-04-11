@@ -12,7 +12,9 @@ Mobile Musician is meant to be a sort of “pocket inspiration” for musicians 
 
 ===6.1.2 Hardware, Software, and Human Interfaces===
 
-*6.1.2.1 OpenAl 1.0:*  OpenAl is a third party library for playing and manipulating sounds in iOs.  It will be used to play sounds and change the pitch of existing sounds.  This will cut down on memory so I don't have to store every possible note.  
+*6.1.2.1 OpenAl 1.0:*  OpenAl is a third party library for playing and manipulating sounds in iOs.  It will be used to play sounds and change the pitch of existing sounds.  This will cut down on memory so I don't have to store every possible note.  The idea is to have a few notes from an instrument and use OpenAl to fill in the rest via pitch changing.
+
+*6.1.2.2 SoundBankPlayer:* SoundBankPlayer is third party software from hollance.com that does most of the work needed to communicate with OpenAl.  You give it a .plist file and some samples from the instrument and creating a new SoundBank takes care of the notes for you.  You then give it a midi number and it plays that note.
 
 *6.1.2.2 Model-View-Controller:*  Since this project follows a strict Model-View-Controller architecture,  most of the internal software interfaces are the interaction  between the view and their associated controllers, as well as the model and the controllers.  
 
@@ -22,7 +24,7 @@ Since Mobile Musician follows a Model-View-Controller architecture, the classes 
 
 ===6.2.1 Major Software Components===
 
-As stated before, this project follows Mode-View-Controller approach, and the software is divided accordingly.  The Model contains all of the logic and functions unrelated to the GUI.  The View is the code responsible for layout out the GUI, mostly through xib (interface builder) files.  The controllers handle input received through the GUI.
+As stated before, this project follows Mode-View-Controller approach, and the software is divided accordingly.  The Model, MobileMusicianModel CSC, contains all of the logic and functions unrelated to the GUI.  The MobileMusicianView CSC is  responsible for the layout of the GUI, mostly through xib (interface builder) files.  The MobileMusicianViewController CSC handle input received through the GUI.
 
 ===6.2.2 Major Software Interactions===
 
@@ -145,7 +147,7 @@ There are no interfaces in this project.
 
 ===6.3.4 Detailed Design Diagrams===
 
-Diagrams to come.  
+See Downloads for all diagrams. 
 
 ==6.4 Database Design and Description==
 
