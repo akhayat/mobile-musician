@@ -58,5 +58,8 @@ static NSArray *notesWithFlats = nil;
 	return [notesWithSharps objectAtIndex:self.name];
 }
 
+- (void)dealloc {
+    [super dealloc];
+}
 
 @end
