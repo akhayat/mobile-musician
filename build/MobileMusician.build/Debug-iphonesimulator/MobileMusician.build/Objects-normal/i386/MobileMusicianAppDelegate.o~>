@@ -1,2 +1,0 @@
-/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m: In function '-[MobileMusicianAppDelegate application:didFinishLaunchingWithOptions:]':
-/Users/akhayat1/Developer/MobileMusician/Classes/MobileMusicianAppDelegate.m:26: error: request for member 'view' in something not a structure or union
