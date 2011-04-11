@@ -52,12 +52,15 @@
 
 - (void)viewDidLoad {
 	
-	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:2],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:2],
-												[NSNumber numberWithInt:2], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:2], [NSNumber numberWithInt:2], nil]];
+	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], nil]];
 	
-	self.root = [[Note alloc] initWithName:AS  andOctave:3];
+	self.root = [[Note alloc] initWithName:A  andOctave:3];
 	self.notes = [self.scale toArrayOfNotesFromRoot:root];
 	
 	player = [[SoundBankPlayer alloc] init];
@@ -76,12 +79,14 @@
 		Note *nextNote = [self.notes objectAtIndex:(i%([notes count]-1))];
 		nextNoteButton.frame = CGRectMake(x, y, BUTTON_SIDE, BUTTON_SIDE);
 
-		[nextNoteButton setTitle:[nextNote nameAsString] forState: UIControlStateNormal];
+		NSString *title = [NSString stringWithFormat: @"%@%d", [nextNote nameAsString], nextNote.octave];
+		NSLog(@"%@%f note# %f", [nextNote nameAsString], nextNote.octave, i);
+		[nextNoteButton setTitle:title forState: UIControlStateNormal];
 		
 		[nextNoteButton addTarget:self 
 						   action:@selector(notePressed:)
 		 forControlEvents:UIControlEventTouchDown];
-		nextNoteButton.tag = nextNote.name + 12 * (nextNote.octave + (i / 12));
+		nextNoteButton.tag = nextNote.name + 12 * (nextNote.octave + i / 12);
 		[self.view addSubview:nextNoteButton];
 		
 		if ((y / height) % 2 == 0) {
@@ -128,6 +133,10 @@
 
 
 - (void)dealloc {
+	[root release];
+	[notes release];
+	[currentScale release];
+	[player release];
     [super dealloc];
 }
 

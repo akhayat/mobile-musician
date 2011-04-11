@@ -30,7 +30,13 @@
 		nextNote = [nextNote stepUp: [step intValue]];
 		[noteArray addObject:nextNote];
 	}
+	[nextNote release];
 	return [NSArray arrayWithArray: noteArray];
+}
+
+- (void)dealloc {
+	[halfSteps release];
+    [super dealloc];
 }
 
 @end

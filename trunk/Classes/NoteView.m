@@ -25,6 +25,7 @@
 }
 */
 - (void)dealloc {
+	[notes release];
     [super dealloc];
 }
 

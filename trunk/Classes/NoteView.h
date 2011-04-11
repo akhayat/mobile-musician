@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define BUTTON_SIDE 36
+#define BUTTON_SIDE 42
 #define BUTTONS_PER_ROW 6
 #define BUTTONS_PER_COLUMN 8
 
