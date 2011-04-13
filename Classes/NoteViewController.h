@@ -24,8 +24,8 @@
 @property (retain, readonly) SoundBankPlayer *player;
 
 
--(IBAction)notePressed: (Note *)n;
-
+-(IBAction)notePressed: (id)sender;
+-(IBAction)menuButtonPressed: (id)sender;
 
 @end
 

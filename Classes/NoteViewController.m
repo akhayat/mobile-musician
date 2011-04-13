@@ -7,7 +7,7 @@
 //
 
 #import "NoteViewController.h"
-
+#import "MenuViewController.h"
 
 
 
@@ -18,9 +18,23 @@
 @synthesize notes;
 @synthesize player;
 
+MenuViewController *menuViewController = nil;
+
 -(IBAction)notePressed: (id) sender {
     int sound = ((UIControl*)sender).tag; 
 	[player playNote:sound gain:1.0f];
+}
+
+-(IBAction)menuButtonPressed: (id) sender {
+	if( menuViewController == nil || !menuViewController.menuVisible) {
+		[menuViewController release];
+        menuViewController = [[MenuViewController alloc]
+							    initWithNibName:@"MenuViewController" bundle:nil];
+	    [self.view addSubview: menuViewController.view];
+	} else {
+	    [menuViewController.view removeFromSuperview];
+	}
+	menuViewController.menuVisible = !menuViewController.menuVisible;
 }
 
 /*
@@ -51,11 +65,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.*\
 
 - (void)viewDidLoad {
-	
-	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:2],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:2],
-												[NSNumber numberWithInt:2], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:2], [NSNumber numberWithInt:2], nil]];
+
+	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
+												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1], 
+												[NSNumber numberWithInt:1], nil]];
 	
 	self.root = [[Note alloc] initWithName:A  andOctave:2];
 	self.notes = [self.scale toArrayOfNotesFromRoot:root];
@@ -76,7 +93,7 @@
 		Note *nextNote = [self.notes objectAtIndex:(i%([notes count]-1))];
 		nextNoteButton.frame = CGRectMake(x, y, BUTTON_SIDE, BUTTON_SIDE);
 
-		NSString *title = [NSString stringWithFormat: @"%@%d", [nextNote nameAsString], nextNote.octave];
+		NSString *title = [NSString stringWithFormat: @"%@", [nextNote nameAsString]];
 		NSLog(@"%@%f note# %f", [nextNote nameAsString], nextNote.octave, i);
 		[nextNoteButton setTitle:title forState: UIControlStateNormal];
 		
@@ -86,6 +103,10 @@
 		nextNoteButton.tag = nextNote.name + 12 * (nextNote.octave + i / [self.scale.halfSteps count]);
 		[self.view addSubview:nextNoteButton];
 		
+		
+		// Instead of starting a new row at the beginning,
+		// the next note is directly below the one at the end
+		// of the line then it reverses directions
 		if ((y / height) % 2 == 0) {
 			if (x + width >= self.view.frame.size.width) {
 				y += height;
@@ -130,6 +151,7 @@
 
 
 - (void)dealloc {
+	[menuViewController release];
 	[root release];
 	[notes release];
 	[currentScale release];

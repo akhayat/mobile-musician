@@ -43,7 +43,8 @@
 		C076FC311320C40700274EE7 /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC301320C40700274EE7 /* NoteView.m */; };
 		C092F163130A140E0014A226 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C092F162130A140E0014A226 /* Note.m */; };
 		C09E47F81344128F00F57740 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C09E47F71344128F00F57740 /* icon.png */; };
-		C0ACC0CF132F54AE009E9689 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0ACC0CE132F54AE009E9689 /* NoteViewController.xib */; };
+		C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F94C8F1352CA14004B78E7 /* MenuViewController.m */; };
+		C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F94C901352CA14004B78E7 /* MenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,7 +94,9 @@
 		C092F161130A140E0014A226 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
 		C092F162130A140E0014A226 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		C09E47F71344128F00F57740 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Downloads/icon.png; sourceTree = SOURCE_ROOT; };
-		C0ACC0CE132F54AE009E9689 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		C0F94C8E1352CA14004B78E7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		C0F94C8F1352CA14004B78E7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		C0F94C901352CA14004B78E7 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Classes/MenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				C04863D6133C76FA009972F0 /* OpenALSupport.h */,
 				C0486408133C772A009972F0 /* SoundBankPlayer.h */,
 				C0486409133C772A009972F0 /* SoundBankPlayer.m */,
+				C0F94C8E1352CA14004B78E7 /* MenuViewController.h */,
+				C0F94C8F1352CA14004B78E7 /* MenuViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -167,7 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				C09E47F21344127A00F57740 /* Images */,
-				C0ACC0CE132F54AE009E9689 /* NoteViewController.xib */,
+				C0F94C901352CA14004B78E7 /* MenuViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MobileMusician-Info.plist */,
 			);
@@ -275,7 +280,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				C0ACC0CF132F54AE009E9689 /* NoteViewController.xib in Resources */,
 				C04863F3133C771C009972F0 /* P200 Piano A#2.caf in Resources */,
 				C04863F4133C771C009972F0 /* P200 Piano A#3.caf in Resources */,
 				C04863F5133C771C009972F0 /* P200 Piano A#4.caf in Resources */,
@@ -298,6 +302,7 @@
 				C0486406133C771C009972F0 /* P200 Piano G#9.caf in Resources */,
 				C0486407133C771C009972F0 /* Piano.plist in Resources */,
 				C09E47F81344128F00F57740 /* icon.png in Resources */,
+				C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +321,7 @@
 				C076FC311320C40700274EE7 /* NoteView.m in Sources */,
 				C04863D7133C76FA009972F0 /* OpenALSupport.c in Sources */,
 				C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */,
+				C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
