@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#define BUTTON_SIDE 42
-#define BUTTONS_PER_ROW 6
-#define BUTTONS_PER_COLUMN 8
+
+#define BUTTON_SIDE 50
+#define BUTTONS_PER_ROW 5
+#define BUTTONS_PER_COLUMN 7
 
 @interface NoteView : UIView {
-    @private NSArray *notes;
+   // @private NSMutableArray *noteButtons;
 }
-@property (retain) NSArray *notes;
+//@property (retain) NSArray *noteButtons;
 
 @end

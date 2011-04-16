@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "Note.h"
 
-//Scales are immutable
 
 @interface Scale : NSObject {
 
@@ -21,9 +20,20 @@
 /*
  * Creates a scale from the given list of half steps
  * For example, [2, 2, 1, 2, 2, 2, 1] is the major scale---
- * whole step, whole step, half step, whole, whole, whole, half
+ * whole step, whole step, half step, whole, whole, whole, half.
+ * This is the designated initializer.
  */
 -(id)initWithArray: (NSArray *)halfStepArray;
+
+-(id)initWithChromaticScale;
+-(id)initWithMajorScale;
+-(id)initWithNaturalMinorScale;
+-(id)initWithHarmonicMinorScale;
+-(id)initWithMajorPentatonicScale;
+-(id)initWithMinorPentatonicScale;
+-(id)initWithBluesScale;
+-(id)initWithWholeToneScale;
+
 
 /*
  * Given a root, in returns an array of notes in the scale

@@ -11,21 +11,27 @@
 
 @implementation NoteView
 
-@synthesize notes;
+/*@synthesize noteButtons;
 
 - (id)initWithFrame:(CGRect)frame {
     
     if(self = [super initWithFrame:frame]) {
-		self.notes = [NSMutableArray array];
+		noteButtons = [NSMutableArray array];
 	}
     return self;
 }
+*/
 /*
+ * Adds the note buttons to the view
 - (void)drawRect:(CGRect)rect {
+	for (UIButton* button in self.noteButtons) {
+		[self addSubview:button];
+	}
 }
 */
+
 - (void)dealloc {
-	[notes release];
+	//[noteButtons release];
     [super dealloc];
 }
 
