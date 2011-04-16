@@ -10,10 +10,7 @@
 
 
 @interface MenuViewController : UIViewController {
-	//Keeps track of whether the menu is visible or not
-@private BOOL menuVisible;
 }
-@property BOOL menuVisible;
 
 -(IBAction)closeButtonPressed: (id)sender;
 

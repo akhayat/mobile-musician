@@ -14,27 +14,40 @@
 @implementation NoteViewController
 
 @synthesize root;
-@synthesize scale;
+@synthesize currentScale;
 @synthesize notes;
+@synthesize noteButtons;
 @synthesize player;
 
 MenuViewController *menuViewController = nil;
 
+/*
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    CGPoint location = [[touches anyObject] locationInView:self.view];
+    NSLog(@"x: %f, y: %f", location.x, location.y);
+}*/
+
+//Play a note when the button is pressed
 -(IBAction)notePressed: (id) sender {
     int sound = ((UIControl*)sender).tag; 
 	[player playNote:sound gain:1.0f];
 }
 
+// If the menu is nil, create it.
+// If it's hidden, make it visible.
+// If it's visible, hide it.
 -(IBAction)menuButtonPressed: (id) sender {
-	if( menuViewController == nil || !menuViewController.menuVisible) {
-		[menuViewController release];
+	if (menuViewController == nil) {
         menuViewController = [[MenuViewController alloc]
 							    initWithNibName:@"MenuViewController" bundle:nil];
 	    [self.view addSubview: menuViewController.view];
 	} else {
-	    [menuViewController.view removeFromSuperview];
+		menuViewController.view.hidden = !menuViewController.view.hidden;
 	}
-	menuViewController.menuVisible = !menuViewController.menuVisible;
 }
 
 /*
@@ -56,29 +69,16 @@ MenuViewController *menuViewController = nil;
 	
 }
 */
-//
-//-(IBAction)setButtonTitle: (UIButton *)sender {
-//	[note1 setTitle:@"AHH" forState: UIControlStateNormal];
-//}
 
 
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.*\
-
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+// Draw the note buttons.
 - (void)viewDidLoad {
 
-	self.scale = [[Scale alloc] initWithArray: [NSArray arrayWithObjects: [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1],
-												[NSNumber numberWithInt:1], [NSNumber numberWithInt:1], 
-												[NSNumber numberWithInt:1], nil]];
-	
+	self.currentScale = [[Scale alloc] initWithChromaticScale];
+	self.noteButtons = [NSMutableArray array];
 	self.root = [[Note alloc] initWithName:A  andOctave:2];
-	self.notes = [self.scale toArrayOfNotesFromRoot:root];
-	
-	player = [[SoundBankPlayer alloc] init];
-	[player setSoundBank:@"Piano"];
+	self.notes = [NSMutableArray array];
 	
 	int i;
 	int x = 0;
@@ -87,22 +87,42 @@ MenuViewController *menuViewController = nil;
 	int verticalSpace = (self.view.frame.size.height - ((BUTTONS_PER_COLUMN) * BUTTON_SIDE)) / (BUTTONS_PER_COLUMN - 1);
 	int width = horizontalSpace + BUTTON_SIDE;
 	int height = verticalSpace + BUTTON_SIDE;
+	int numberOfButtons = BUTTONS_PER_ROW * BUTTONS_PER_COLUMN;
+	int octavesInGrid = numberOfButtons / [currentScale.halfSteps count] + 1;
+	Note *nextRoot = [[Note alloc] initWithName: root.name andOctave: root.octave];
 	
-	for(i = 0; i < BUTTONS_PER_ROW * BUTTONS_PER_COLUMN; i++) { 
-		UIButton *nextNoteButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-		Note *nextNote = [self.notes objectAtIndex:(i%([notes count]-1))];
-		nextNoteButton.frame = CGRectMake(x, y, BUTTON_SIDE, BUTTON_SIDE);
+	
+	//Initialize the notes
+	for (i = 0; i < octavesInGrid; i++) {
+	    [self.notes addObjectsFromArray: [self.currentScale toArrayOfNotesFromRoot:nextRoot]];
+		[self.notes removeLastObject];
+		nextRoot.octave++;
 
+	}
+	[nextRoot release];
+	
+	//NSLog(@"NOTE COUNT: %d", [self.notes count]);
+	player = [[SoundBankPlayer alloc] init];
+	[player setSoundBank:@"Piano"];
+	
+	for(i = 0; i < numberOfButtons; i++) { 
+		UIButton *nextNoteButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		Note *nextNote = [self.notes objectAtIndex: i];
+		nextNoteButton.frame = CGRectMake(x, y, BUTTON_SIDE, BUTTON_SIDE);
 		NSString *title = [NSString stringWithFormat: @"%@", [nextNote nameAsString]];
-		NSLog(@"%@%f note# %f", [nextNote nameAsString], nextNote.octave, i);
 		[nextNoteButton setTitle:title forState: UIControlStateNormal];
 		
 		[nextNoteButton addTarget:self 
 						   action:@selector(notePressed:)
 		 forControlEvents:UIControlEventTouchDown];
-		nextNoteButton.tag = nextNote.name + 12 * (nextNote.octave + i / [self.scale.halfSteps count]);
-		[self.view addSubview:nextNoteButton];
+		[nextNoteButton addTarget:self 
+						   action:@selector(notePressed:)
+				 forControlEvents:UIControlEventTouchDragEnter];
 		
+		nextNoteButton.tag = nextNote.name + 12 * nextNote.octave;
+		
+		[self.noteButtons addObject: nextNoteButton];
+		[self.view addSubview: [self.noteButtons objectAtIndex:i]];
 		
 		// Instead of starting a new row at the beginning,
 		// the next note is directly below the one at the end
@@ -124,10 +144,14 @@ MenuViewController *menuViewController = nil;
 			}
 		}
 	}
+	NSLog(@"HERE!");
+	
     [super viewDidLoad];
 }
 
-
+-(void)changeRoot:(Note *)newRoot {
+//	for(
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -136,6 +160,7 @@ MenuViewController *menuViewController = nil;
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -153,7 +178,6 @@ MenuViewController *menuViewController = nil;
 - (void)dealloc {
 	[menuViewController release];
 	[root release];
-	[notes release];
 	[currentScale release];
 	[player release];
     [super dealloc];
