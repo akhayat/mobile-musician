@@ -7,17 +7,18 @@
 //
 
 #import "MenuViewController.h"
-#import "NoteViewController.h"
-
 
 @implementation MenuViewController
 
+@synthesize delegate;
+
 -(IBAction)closeButtonPressed: (id) sender {
-	self.view.hidden = !self.view.hidden;
+	[self.delegate menuButtonPressed: sender];
 }
 
--(IBAction)rootChanged {
-	
+-(IBAction)rootChanged: (id) sender {
+	int rootSelecteed = [sender selectedSegmentIndex];
+	self.delegate.root.name = rootSelecteed;
 }
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
