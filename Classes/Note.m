@@ -22,10 +22,10 @@ static NSArray *notesWithFlats = nil;
 	if (self = [super init]) {
 		self.name = note;
 		self.octave = oct;
-		notesWithSharps = [NSArray arrayWithObjects: @"C", @"C#", @"D", @"D#", 
-						@"E", @"F", @"F#", @"G", @"G#", @"A", @"A#", @"B", nil];
-		notesWithFlats = [NSArray arrayWithObjects: @"C", @"Db", @"D", @"Eb", 
-						  @"E", @"F", @"Gb", @"G", @"Ab", @"A", @"Bb", @"B", nil];
+		notesWithSharps = [[NSArray arrayWithObjects: @"C", @"C#", @"D", @"D#", 
+						@"E", @"F", @"F#", @"G", @"G#", @"A", @"A#", @"B", nil] retain];
+		notesWithFlats = [[NSArray arrayWithObjects: @"C", @"Db", @"D", @"Eb", 
+						  @"E", @"F", @"Gb", @"G", @"Ab", @"A", @"Bb", @"B", nil] retain];
 		
 	}
 	return self;

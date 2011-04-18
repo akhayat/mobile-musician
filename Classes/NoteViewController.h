@@ -12,23 +12,32 @@
 #import "NoteView.h"
 #import "Scale.h"
 
-@interface NoteViewController : UIViewController {
+@class MenuViewController;
+
+@protocol NoteViewControllerDelegate
+    @property (retain) Note *root;
+    @property (retain) Scale *currentScale;
+    @property (retain) SoundBankPlayer *player;
+    -(IBAction)menuButtonPressed: (id)sender;
+@end
+
+@interface NoteViewController : UIViewController <NoteViewControllerDelegate> {
 	@private Note *root;
     @private Scale *currentScale;
 	@private NSMutableArray *notes;
     @private NSMutableArray *noteButtons;
 	@private SoundBankPlayer *player;
+    @private MenuViewController *menuViewController;
 }
 @property (retain) Note *root;
 @property (retain) Scale *currentScale;
 @property (retain) NSMutableArray *notes;
 @property (retain) NSMutableArray *noteButtons;
 @property (retain) SoundBankPlayer *player;
-
+@property (retain) MenuViewController *menuViewController;
 
 -(IBAction)notePressed: (id)sender;
 -(IBAction)menuButtonPressed: (id)sender;
--(void)changeRoot: (Note *)newRoot;
 
 @end
 

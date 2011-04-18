@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "NoteViewController.h"
 
 @interface MenuViewController : UIViewController {
+	id<NoteViewControllerDelegate> delegate;
 }
+@property (assign) id<NoteViewControllerDelegate> delegate;
 
 -(IBAction)closeButtonPressed: (id)sender;
+-(IBAction)rootChanged: (id)sender;
 
 @end
