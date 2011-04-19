@@ -16,7 +16,7 @@
 @private NSArray* halfSteps;
 	
 }
-@property (retain) NSArray *halfSteps;
+@property (retain, readonly) NSArray *halfSteps;
 /*
  * Creates a scale from the given list of half steps
  * For example, [2, 2, 1, 2, 2, 2, 1] is the major scale---

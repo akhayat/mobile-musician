@@ -22,6 +22,8 @@
 - (NSArray*)bluesArray;
 - (NSArray*)wholeToneArray;
 
++ (int)sumArray: (NSArray*)array;
+
 @end
 
 @implementation Scale
@@ -31,9 +33,21 @@
 //TODO: Error handling
 -(id)initWithArray:(NSArray *)halfStepArray {
 	if (self = [super init]) {
-		self.halfSteps = [NSArray arrayWithArray:halfStepArray];
+		int sum = [Scale sumArray: halfStepArray];
+		if(sum != HALF_STEPS_IN_OCTAVE) {
+			[NSException raise:@"Invalid number of steps. " format:@"Steps should add to 12. Sum: %d", sum];
+		}
+		halfSteps = [[NSArray arrayWithArray:halfStepArray] retain];
 	}
 	return self;		
+}
+
++(int)sumArray:(NSArray *)array {
+	int sum = 0;
+	for (NSNumber *number in array) {
+		sum += [number intValue];
+	}
+	return sum;
 }
 
 -(id)initWithChromaticScale {
