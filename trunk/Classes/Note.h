@@ -10,7 +10,7 @@
 
 #define MAX_OCTAVES 8
 #define A4 440
-#define HALF_STEPS_IN_OCTAVE 12;
+#define HALF_STEPS_IN_OCTAVE 12
 
 /* 
  * Enum for note names.  Had to use S for sharp because # is

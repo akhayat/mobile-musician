@@ -45,6 +45,7 @@
 	    [self.view addSubview: self.menuViewController.view];
 	} else {
 		if(!self.menuViewController.view.hidden) {
+			
 		    [self updateButtons];
 	    }
 		self.menuViewController.view.hidden = !self.menuViewController.view.hidden;
@@ -57,13 +58,11 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
 
-		
     }
     return self;
 }
 
 */
-
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
@@ -95,7 +94,7 @@
 	//Loop to create and place all the buttons
 	//As well as set touch events.  
 	for(int i = 0; i < NUMBER_OF_BUTTONS; i++) { 
-		UIButton *nextNoteButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+		UIButton *nextNoteButton = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
 		nextNoteButton.frame = CGRectMake(x, y, BUTTON_SIDE, BUTTON_SIDE);
 		
 		[nextNoteButton addTarget:self 
@@ -112,24 +111,14 @@
 		// the next note is directly below the one at the end
 		// of the line then it reverses directions
 		if ((y / height) % 2 == 0) {
-			if (x + width >= self.view.frame.size.width) {
-				y += height;
-			}
-			else {
-				x += width;
-			}
+			x + width >= self.view.frame.size.width ? (y += height) : (x += width);
 		}
 		else {
-			if (x - width < 0) {
-				y += height;
-			}
-			else {
-				x -= width;
-			}
+			x - width < 0 ? (y += height) : (x -= width);
 		}
 	}
-	[self updateButtons];
 	
+	[self updateButtons];
     [super viewDidLoad];
 }
 
@@ -161,8 +150,9 @@
  // Change the title and tag of the buttons in case
  // The scale or root changed.
 - (void) updateButtons {
+	NSLog(@"HERE %@", self.noteButtons);
 	[self updateNotes];
-	for (int i = 0; i < [noteButtons count]; i++) {
+	for (int i = 0; i < [self.noteButtons count]; i++) {
 		UIButton *nextNoteButton = [self.noteButtons objectAtIndex: i];
 		Note *nextNote = [self.notes objectAtIndex: i];
 		nextNoteButton.tag = nextNote.name + 12 * nextNote.octave;
@@ -170,8 +160,10 @@
 	}
 }
 
-
 - (void)dealloc {
+	[currentScale release];
+	[notes release];
+	[noteButtons release];
 	[menuViewController release];
 	[root release];
 	[currentScale release];

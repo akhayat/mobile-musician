@@ -9,12 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "NoteViewController.h"
 
-@interface MenuViewController : UIViewController {
-	id<NoteViewControllerDelegate> delegate;
+@class ChangeScaleViewController;
+
+@protocol MenuViewControllerDelegate
+    @property (assign) id<NoteViewControllerDelegate> delegate;
+@end
+
+@interface MenuViewController : UIViewController <MenuViewControllerDelegate> {
+	@private id<NoteViewControllerDelegate> delegate;
+    @private ChangeScaleViewController *changeScaleViewController;
 }
 @property (assign) id<NoteViewControllerDelegate> delegate;
+@property (retain) ChangeScaleViewController *changeScaleViewController;
 
 -(IBAction)closeButtonPressed: (id)sender;
 -(IBAction)rootChanged: (id)sender;
+-(IBAction)changeScale: (id) sender;
 
 @end

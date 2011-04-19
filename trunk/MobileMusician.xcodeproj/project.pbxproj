@@ -14,6 +14,9 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* NoteViewController.m */; };
+		C012FAB8135D14E700804977 /* CleanGuitar.plist in Resources */ = {isa = PBXBuildFile; fileRef = C012FAB7135D14E700804977 /* CleanGuitar.plist */; };
+		C013CF86135BDFA2006567F2 /* ChangeScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C013CF84135BDFA2006567F2 /* ChangeScaleViewController.m */; };
+		C013CF87135BDFA2006567F2 /* ChangeScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C013CF85135BDFA2006567F2 /* ChangeScaleViewController.xib */; };
 		C04863AE133C76B2009972F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04863AD133C76B2009972F0 /* AudioToolbox.framework */; };
 		C04863BC133C76C9009972F0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04863BB133C76C9009972F0 /* OpenAL.framework */; };
 		C04863D7133C76FA009972F0 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = C04863D5133C76FA009972F0 /* OpenALSupport.c */; };
@@ -60,6 +63,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MobileMusician_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileMusician_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MobileMusician-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobileMusician-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C012FAB7135D14E700804977 /* CleanGuitar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CleanGuitar.plist; sourceTree = "<group>"; };
+		C013CF83135BDFA2006567F2 /* ChangeScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeScaleViewController.h; sourceTree = "<group>"; };
+		C013CF84135BDFA2006567F2 /* ChangeScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeScaleViewController.m; sourceTree = "<group>"; };
+		C013CF85135BDFA2006567F2 /* ChangeScaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChangeScaleViewController.xib; path = Classes/ChangeScaleViewController.xib; sourceTree = "<group>"; };
 		C04863AD133C76B2009972F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C04863BB133C76C9009972F0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		C04863D5133C76FA009972F0 /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
@@ -134,6 +141,8 @@
 				C0486409133C772A009972F0 /* SoundBankPlayer.m */,
 				C0F94C8E1352CA14004B78E7 /* MenuViewController.h */,
 				C0F94C8F1352CA14004B78E7 /* MenuViewController.m */,
+				C013CF83135BDFA2006567F2 /* ChangeScaleViewController.h */,
+				C013CF84135BDFA2006567F2 /* ChangeScaleViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,6 +184,7 @@
 				C0F94C901352CA14004B78E7 /* MenuViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MobileMusician-Info.plist */,
+				C013CF85135BDFA2006567F2 /* ChangeScaleViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -215,6 +225,7 @@
 				C04863F0133C771B009972F0 /* P200 Piano F#7.caf */,
 				C04863F1133C771C009972F0 /* P200 Piano G#9.caf */,
 				C04863F2133C771C009972F0 /* Piano.plist */,
+				C012FAB7135D14E700804977 /* CleanGuitar.plist */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -303,6 +314,8 @@
 				C0486407133C771C009972F0 /* Piano.plist in Resources */,
 				C09E47F81344128F00F57740 /* icon.png in Resources */,
 				C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */,
+				C013CF87135BDFA2006567F2 /* ChangeScaleViewController.xib in Resources */,
+				C012FAB8135D14E700804977 /* CleanGuitar.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +335,7 @@
 				C04863D7133C76FA009972F0 /* OpenALSupport.c in Sources */,
 				C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */,
 				C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */,
+				C013CF86135BDFA2006567F2 /* ChangeScaleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

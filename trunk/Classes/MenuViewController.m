@@ -7,10 +7,12 @@
 //
 
 #import "MenuViewController.h"
+#import "ChangeScaleViewController.h"
 
 @implementation MenuViewController
 
 @synthesize delegate;
+@synthesize changeScaleViewController;
 
 -(IBAction)closeButtonPressed: (id) sender {
 	[self.delegate menuButtonPressed: sender];
@@ -19,6 +21,17 @@
 -(IBAction)rootChanged: (id) sender {
 	int rootSelecteed = [sender selectedSegmentIndex];
 	self.delegate.root.name = rootSelecteed;
+}
+
+-(IBAction)changeScale: (id) sender {
+	if (self.changeScaleViewController == nil) {
+		self.changeScaleViewController = [[ChangeScaleViewController alloc] 
+										  initWithNibName: @"ChangeScaleViewController" bundle: nil];
+		[self.view addSubview: self.changeScaleViewController.view];
+		self.changeScaleViewController.delegate = self;
+	} else {
+		self.changeScaleViewController.view.hidden = !self.changeScaleViewController.view.hidden;
+	}
 }
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -31,12 +44,11 @@
 }
 */
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	self.changeScaleViewController = nil;
     [super viewDidLoad];
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -61,6 +73,7 @@
 
 
 - (void)dealloc {
+	[changeScaleViewController release];
     [super dealloc];
 }
 
