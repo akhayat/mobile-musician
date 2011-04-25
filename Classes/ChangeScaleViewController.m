@@ -58,41 +58,49 @@
 
 -(IBAction)majorScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithMajorScale];
+	self.delegate.scaleLabel.text = @"Major";
 	self.view.hidden = !self.view.hidden;
 }
 
 -(IBAction)naturalMinorScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithNaturalMinorScale];
+	self.delegate.scaleLabel.text = @"Natural Minor";
 	self.view.hidden = !self.view.hidden;
 }
 
 -(IBAction)harmonicMinorScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithHarmonicMinorScale];
+	self.delegate.scaleLabel.text = @"Harmonic Minor";
 	self.view.hidden = !self.view.hidden;
 }
 
 -(IBAction)BluesScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithBluesScale];
+	self.delegate.scaleLabel.text = @"Blues";
 	self.view.hidden = !self.view.hidden;	
 }
 
 -(IBAction)majorPentatonicScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithMajorPentatonicScale];
+	self.delegate.scaleLabel.text = @"Major Pentatonic";
 	self.view.hidden = !self.view.hidden;
 }
 
 -(IBAction)minorPentatonicScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithMinorPentatonicScale];
+	self.delegate.scaleLabel.text = @"Minor Pentatonic";
 	self.view.hidden = !self.view.hidden;
 }
 
 -(IBAction)chromaticScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithChromaticScale];
+	self.delegate.scaleLabel.text = @"Chromatic";
 	self.view.hidden = !self.view.hidden;
 } 
 
 -(IBAction)wholeToneScaleButton: (id) sender {
 	self.delegate.delegate.currentScale = [[Scale alloc] initWithWholeToneScale];
+	self.delegate.scaleLabel.text = @"Whole Tone";
 	self.view.hidden = !self.view.hidden;
 }
 

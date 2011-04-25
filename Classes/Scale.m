@@ -22,6 +22,7 @@
 - (NSArray*)bluesArray;
 - (NSArray*)wholeToneArray;
 
+//Sums the numbers in an array
 + (int)sumArray: (NSArray*)array;
 
 @end
@@ -30,7 +31,6 @@
 
 @synthesize halfSteps;
 
-//TODO: Error handling
 -(id)initWithArray:(NSArray *)halfStepArray {
 	if (self = [super init]) {
 		int sum = [Scale sumArray: halfStepArray];

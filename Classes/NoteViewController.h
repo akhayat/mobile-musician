@@ -17,7 +17,8 @@
 @protocol NoteViewControllerDelegate
     @property (retain) Note *root;
     @property (retain) Scale *currentScale;
-    @property (retain) SoundBankPlayer *player;
+    @property (retain) NSString *newInstrument;
+    @property BOOL displayNames; 
     -(IBAction)menuButtonPressed: (id)sender;
 @end
 
@@ -27,14 +28,19 @@
 	@private NSMutableArray *notes;
     @private NSMutableArray *noteButtons;
 	@private SoundBankPlayer *player;
-    @private MenuViewController *menuViewController;
+	@private MenuViewController *menuViewController;
+    @private NSString *instrument;
+    @private NSString *newInstrument;
+    @private BOOL displayNames;
 }
 @property (retain) Note *root;
 @property (retain) Scale *currentScale;
 @property (retain) NSMutableArray *notes;
 @property (retain) NSMutableArray *noteButtons;
-@property (retain) SoundBankPlayer *player;
+@property (retain, readonly) SoundBankPlayer *player;
 @property (retain) MenuViewController *menuViewController;
+@property BOOL displayNames;
+@property (retain) NSString *instrument;
 
 -(IBAction)notePressed: (id)sender;
 -(IBAction)menuButtonPressed: (id)sender;

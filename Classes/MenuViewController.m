@@ -13,6 +13,7 @@
 
 @synthesize delegate;
 @synthesize changeScaleViewController;
+@synthesize scaleLabel;
 
 -(IBAction)closeButtonPressed: (id) sender {
 	[self.delegate menuButtonPressed: sender];
@@ -31,6 +32,22 @@
 		self.changeScaleViewController.delegate = self;
 	} else {
 		self.changeScaleViewController.view.hidden = !self.changeScaleViewController.view.hidden;
+	}
+}
+
+-(IBAction)toggleDisplay: (id) sender {
+	delegate.displayNames = ((UISwitch *)sender).on;
+}
+
+-(IBAction)changeInstrument: (id) sender {
+	switch ([sender selectedSegmentIndex]) {
+		case 0:
+			self.delegate.newInstrument = @"Piano";
+			break;
+		case 1:
+			self.delegate.newInstrument = @"CleanGuitar";
+		default:
+			break;
 	}
 }
 
@@ -73,6 +90,7 @@
 
 
 - (void)dealloc {
+	[scaleLabel release];
 	[changeScaleViewController release];
     [super dealloc];
 }
