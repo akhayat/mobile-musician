@@ -45,6 +45,20 @@
 		C076FC241320A6C400274EE7 /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC231320A6C400274EE7 /* Scale.m */; };
 		C076FC311320C40700274EE7 /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC301320C40700274EE7 /* NoteView.m */; };
 		C092F163130A140E0014A226 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C092F162130A140E0014A226 /* Note.m */; };
+		C097C3B8135FBA2700B17270 /* CleanB2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AA135FBA2700B17270 /* CleanB2.caf */; };
+		C097C3B9135FBA2700B17270 /* CleanC#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AB135FBA2700B17270 /* CleanC#7.caf */; };
+		C097C3BA135FBA2700B17270 /* CleanC4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AC135FBA2700B17270 /* CleanC4.caf */; };
+		C097C3BB135FBA2700B17270 /* CleanC5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AD135FBA2700B17270 /* CleanC5.caf */; };
+		C097C3BC135FBA2700B17270 /* CleanC6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AE135FBA2700B17270 /* CleanC6.caf */; };
+		C097C3BD135FBA2700B17270 /* CleanE3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AF135FBA2700B17270 /* CleanE3.caf */; };
+		C097C3BE135FBA2700B17270 /* CleanE4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B0135FBA2700B17270 /* CleanE4.caf */; };
+		C097C3BF135FBA2700B17270 /* CleanE5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B1135FBA2700B17270 /* CleanE5.caf */; };
+		C097C3C0135FBA2700B17270 /* CleanE6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B2135FBA2700B17270 /* CleanE6.caf */; };
+		C097C3C1135FBA2700B17270 /* CleanE7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B3135FBA2700B17270 /* CleanE7.caf */; };
+		C097C3C2135FBA2700B17270 /* CleanG#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B4135FBA2700B17270 /* CleanG#3.caf */; };
+		C097C3C3135FBA2700B17270 /* CleanG#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B5135FBA2700B17270 /* CleanG#4.caf */; };
+		C097C3C4135FBA2700B17270 /* CleanG#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B6135FBA2700B17270 /* CleanG#5.caf */; };
+		C097C3C5135FBA2700B17270 /* CleanG#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B7135FBA2700B17270 /* CleanG#6.caf */; };
 		C09E47F81344128F00F57740 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C09E47F71344128F00F57740 /* icon.png */; };
 		C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F94C8F1352CA14004B78E7 /* MenuViewController.m */; };
 		C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F94C901352CA14004B78E7 /* MenuViewController.xib */; };
@@ -100,6 +114,20 @@
 		C076FC301320C40700274EE7 /* NoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
 		C092F161130A140E0014A226 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
 		C092F162130A140E0014A226 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C097C3AA135FBA2700B17270 /* CleanB2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanB2.caf; sourceTree = "<group>"; };
+		C097C3AB135FBA2700B17270 /* CleanC#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanC#7.caf"; sourceTree = "<group>"; };
+		C097C3AC135FBA2700B17270 /* CleanC4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanC4.caf; sourceTree = "<group>"; };
+		C097C3AD135FBA2700B17270 /* CleanC5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanC5.caf; sourceTree = "<group>"; };
+		C097C3AE135FBA2700B17270 /* CleanC6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanC6.caf; sourceTree = "<group>"; };
+		C097C3AF135FBA2700B17270 /* CleanE3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanE3.caf; sourceTree = "<group>"; };
+		C097C3B0135FBA2700B17270 /* CleanE4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanE4.caf; sourceTree = "<group>"; };
+		C097C3B1135FBA2700B17270 /* CleanE5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanE5.caf; sourceTree = "<group>"; };
+		C097C3B2135FBA2700B17270 /* CleanE6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanE6.caf; sourceTree = "<group>"; };
+		C097C3B3135FBA2700B17270 /* CleanE7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanE7.caf; sourceTree = "<group>"; };
+		C097C3B4135FBA2700B17270 /* CleanG#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#3.caf"; sourceTree = "<group>"; };
+		C097C3B5135FBA2700B17270 /* CleanG#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#4.caf"; sourceTree = "<group>"; };
+		C097C3B6135FBA2700B17270 /* CleanG#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#5.caf"; sourceTree = "<group>"; };
+		C097C3B7135FBA2700B17270 /* CleanG#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#6.caf"; sourceTree = "<group>"; };
 		C09E47F71344128F00F57740 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Downloads/icon.png; sourceTree = SOURCE_ROOT; };
 		C0F94C8E1352CA14004B78E7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C0F94C8F1352CA14004B78E7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
@@ -204,6 +232,20 @@
 		C04863DD133C771B009972F0 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				C097C3AA135FBA2700B17270 /* CleanB2.caf */,
+				C097C3AB135FBA2700B17270 /* CleanC#7.caf */,
+				C097C3AC135FBA2700B17270 /* CleanC4.caf */,
+				C097C3AD135FBA2700B17270 /* CleanC5.caf */,
+				C097C3AE135FBA2700B17270 /* CleanC6.caf */,
+				C097C3AF135FBA2700B17270 /* CleanE3.caf */,
+				C097C3B0135FBA2700B17270 /* CleanE4.caf */,
+				C097C3B1135FBA2700B17270 /* CleanE5.caf */,
+				C097C3B2135FBA2700B17270 /* CleanE6.caf */,
+				C097C3B3135FBA2700B17270 /* CleanE7.caf */,
+				C097C3B4135FBA2700B17270 /* CleanG#3.caf */,
+				C097C3B5135FBA2700B17270 /* CleanG#4.caf */,
+				C097C3B6135FBA2700B17270 /* CleanG#5.caf */,
+				C097C3B7135FBA2700B17270 /* CleanG#6.caf */,
 				C04863DE133C771B009972F0 /* P200 Piano A#2.caf */,
 				C04863DF133C771B009972F0 /* P200 Piano A#3.caf */,
 				C04863E0133C771B009972F0 /* P200 Piano A#4.caf */,
@@ -316,6 +358,20 @@
 				C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */,
 				C013CF87135BDFA2006567F2 /* ChangeScaleViewController.xib in Resources */,
 				C012FAB8135D14E700804977 /* CleanGuitar.plist in Resources */,
+				C097C3B8135FBA2700B17270 /* CleanB2.caf in Resources */,
+				C097C3B9135FBA2700B17270 /* CleanC#7.caf in Resources */,
+				C097C3BA135FBA2700B17270 /* CleanC4.caf in Resources */,
+				C097C3BB135FBA2700B17270 /* CleanC5.caf in Resources */,
+				C097C3BC135FBA2700B17270 /* CleanC6.caf in Resources */,
+				C097C3BD135FBA2700B17270 /* CleanE3.caf in Resources */,
+				C097C3BE135FBA2700B17270 /* CleanE4.caf in Resources */,
+				C097C3BF135FBA2700B17270 /* CleanE5.caf in Resources */,
+				C097C3C0135FBA2700B17270 /* CleanE6.caf in Resources */,
+				C097C3C1135FBA2700B17270 /* CleanE7.caf in Resources */,
+				C097C3C2135FBA2700B17270 /* CleanG#3.caf in Resources */,
+				C097C3C3135FBA2700B17270 /* CleanG#4.caf in Resources */,
+				C097C3C4135FBA2700B17270 /* CleanG#5.caf in Resources */,
+				C097C3C5135FBA2700B17270 /* CleanG#6.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

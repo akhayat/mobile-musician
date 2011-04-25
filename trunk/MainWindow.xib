@@ -76,7 +76,7 @@
 					<object class="IBUIView" id="240653318">
 						<reference key="NSNextResponder" ref="117978783"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 40}, {280, 374}}</string>
+						<string key="NSFrame">{{15, 42.5}, {280, 374}}</string>
 						<reference key="NSSuperview" ref="117978783"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="614191336">
 							<int key="NSColorSpace">3</int>
@@ -171,8 +171,8 @@
 						<reference key="object" ref="117978783"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="240653318"/>
 							<reference ref="871229771"/>
+							<reference ref="240653318"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -238,7 +238,7 @@
 					<string>NoteView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABBcAAAw80AAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw80AAA</bytes>
 					</object>
 					<string>NoteViewController</string>
 					<string>{{761, 371}, {320, 480}}</string>

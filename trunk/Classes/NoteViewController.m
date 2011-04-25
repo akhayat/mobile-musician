@@ -13,9 +13,9 @@
 // Another declaration of the NoteViewController interface
 // Allows for private methods
 @interface NoteViewController()
-
 -(void) updateButtons;
 -(void) updateNotes;
+-(void) updateUI;
 @end
 
 
@@ -27,6 +27,9 @@
 @synthesize noteButtons;
 @synthesize player;
 @synthesize menuViewController;
+@synthesize displayNames;
+@synthesize instrument;
+@synthesize newInstrument;
 
 //Play a note when the button is pressed
 -(IBAction)notePressed: (id) sender {
@@ -46,7 +49,7 @@
 	} else {
 		if(!self.menuViewController.view.hidden) {
 			
-		    [self updateButtons];
+		    [self updateUI];
 	    }
 		self.menuViewController.view.hidden = !self.menuViewController.view.hidden;
 	}
@@ -63,13 +66,6 @@
 }
 
 */
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-	
-}
-*/
-
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 // Draw the note buttons.
@@ -81,8 +77,10 @@
 	self.root = [[Note alloc] initWithName:A  andOctave:3];
 	self.notes = [NSMutableArray array];
 	self.menuViewController == nil;
+	self.displayNames = YES;
 	player = [[SoundBankPlayer alloc] init];
-	[player setSoundBank:@"Piano"];
+	self.newInstrument = @"Piano";
+	self.instrument = nil;
 	
 	int x = 0;
 	int y = 0;
@@ -118,7 +116,7 @@
 		}
 	}
 	
-	[self updateButtons];
+	[self updateUI];
     [super viewDidLoad];
 }
 
@@ -150,14 +148,28 @@
  // Change the title and tag of the buttons in case
  // The scale or root changed.
 - (void) updateButtons {
-	NSLog(@"HERE %@", self.noteButtons);
-	[self updateNotes];
 	for (int i = 0; i < [self.noteButtons count]; i++) {
 		UIButton *nextNoteButton = [self.noteButtons objectAtIndex: i];
 		Note *nextNote = [self.notes objectAtIndex: i];
+		NSString *title = self.displayNames ? [NSString stringWithFormat: @"%@", [nextNote nameAsString]] : @"";
 		nextNoteButton.tag = nextNote.name + 12 * nextNote.octave;
-		[nextNoteButton setTitle: [NSString stringWithFormat: @"%@", [nextNote nameAsString]] forState:UIControlStateNormal];
+		[nextNoteButton setTitle: title forState:UIControlStateNormal];
+		title = nil;
 	}
+}
+
+- (void)updateInstrument {
+	if (![self.instrument isEqualToString: self.newInstrument]) {
+		self.instrument = [[NSString stringWithFormat:@"%@", self.newInstrument] retain];
+		[player setSoundBank: self.instrument];
+	}
+}
+
+//Calls all of the update functions
+- (void) updateUI {
+	[self updateNotes];
+	[self updateButtons];
+	[self updateInstrument]; 
 }
 
 - (void)dealloc {
@@ -168,6 +180,8 @@
 	[root release];
 	[currentScale release];
 	[player release];
+	[instrument release];
+	[newInstrument release];
     [super dealloc];
 }
 
