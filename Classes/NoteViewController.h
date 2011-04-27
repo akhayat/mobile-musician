@@ -23,12 +23,12 @@
 @end
 
 @interface NoteViewController : UIViewController <NoteViewControllerDelegate> {
-	@private Note *root;
+    @private Note *root;
     @private Scale *currentScale;
-	@private NSMutableArray *notes;
+    @private NSMutableArray *notes;
     @private NSMutableArray *noteButtons;
-	@private SoundBankPlayer *player;
-	@private MenuViewController *menuViewController;
+    @private SoundBankPlayer *player;
+    @private MenuViewController *menuViewController;
     @private NSString *instrument;
     @private NSString *newInstrument;
     @private BOOL displayNames;

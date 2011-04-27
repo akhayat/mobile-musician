@@ -17,7 +17,7 @@
 @end
 
 @interface MenuViewController : UIViewController <MenuViewControllerDelegate> {
-	@private id<NoteViewControllerDelegate> delegate;
+    @private id<NoteViewControllerDelegate> delegate;
     @private ChangeScaleViewController *changeScaleViewController;
     @private IBOutlet UILabel *scaleLabel;
 }

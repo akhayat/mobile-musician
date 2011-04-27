@@ -14,29 +14,20 @@ static NSArray *notesWithFlats = nil;
 
 @implementation Note
 
-@synthesize pitch;
-@synthesize name;
-@synthesize octave;
+@synthesize midiNumber, name, octave;
 
 -(id)initWithName:(note_name)note andOctave:(int)oct {
 	if (self = [super init]) {
-		self.name = note;
-		self.octave = oct;
+		name = note;
+		octave = oct;
 		notesWithSharps = [[NSArray arrayWithObjects: @"C", @"C#", @"D", @"D#", 
 						@"E", @"F", @"F#", @"G", @"G#", @"A", @"A#", @"B", nil] retain];
 		notesWithFlats = [[NSArray arrayWithObjects: @"C", @"Db", @"D", @"Eb", 
 						  @"E", @"F", @"Gb", @"G", @"Ab", @"A", @"Bb", @"B", nil] retain];
-		
+		midiNumber = name + HALF_STEPS_IN_OCTAVE * octave;
 	}
 	return self;
 }
-					
-
--(double)playMe {
-	NSLog(@"note: %d", self.name);
-	return self.pitch;
-}
-
 
 //TODO: Error Catching
 -(Note*)stepUp: (int)numberOfHalfSteps {
