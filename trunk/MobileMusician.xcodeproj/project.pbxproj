@@ -60,6 +60,7 @@
 		C097C3C4135FBA2700B17270 /* CleanG#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B6135FBA2700B17270 /* CleanG#5.caf */; };
 		C097C3C5135FBA2700B17270 /* CleanG#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B7135FBA2700B17270 /* CleanG#6.caf */; };
 		C09E47F81344128F00F57740 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C09E47F71344128F00F57740 /* icon.png */; };
+		C0E889E01368BA4A0021AC4B /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E889DF1368BA4A0021AC4B /* Recorder.m */; };
 		C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F94C8F1352CA14004B78E7 /* MenuViewController.m */; };
 		C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F94C901352CA14004B78E7 /* MenuViewController.xib */; };
 /* End PBXBuildFile section */
@@ -129,6 +130,8 @@
 		C097C3B6135FBA2700B17270 /* CleanG#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#5.caf"; sourceTree = "<group>"; };
 		C097C3B7135FBA2700B17270 /* CleanG#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#6.caf"; sourceTree = "<group>"; };
 		C09E47F71344128F00F57740 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Downloads/icon.png; sourceTree = SOURCE_ROOT; };
+		C0E889DE1368BA4A0021AC4B /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
+		C0E889DF1368BA4A0021AC4B /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
 		C0F94C8E1352CA14004B78E7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C0F94C8F1352CA14004B78E7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C0F94C901352CA14004B78E7 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Classes/MenuViewController.xib; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				1D3623250D0F684500981E51 /* MobileMusicianAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* NoteViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* NoteViewController.m */,
+				C0E889DE1368BA4A0021AC4B /* Recorder.h */,
+				C0E889DF1368BA4A0021AC4B /* Recorder.m */,
 				C076FC2F1320C40700274EE7 /* NoteView.h */,
 				C076FC301320C40700274EE7 /* NoteView.m */,
 				C076FC221320A6C400274EE7 /* Scale.h */,
@@ -392,6 +397,7 @@
 				C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */,
 				C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */,
 				C013CF86135BDFA2006567F2 /* ChangeScaleViewController.m in Sources */,
+				C0E889E01368BA4A0021AC4B /* Recorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

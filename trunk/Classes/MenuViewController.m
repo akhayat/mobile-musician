@@ -16,39 +16,39 @@
 @synthesize scaleLabel;
 
 -(IBAction)closeButtonPressed: (id) sender {
-	[self.delegate menuButtonPressed: sender];
+    [self.delegate menuButtonPressed: sender];
 }
 
 -(IBAction)rootChanged: (id) sender {
-	int rootSelecteed = [sender selectedSegmentIndex];
-	self.delegate.root.name = rootSelecteed;
+    int rootSelecteed = [sender selectedSegmentIndex];
+    self.delegate.root = [[Note alloc] initWithName: rootSelecteed andOctave: self.delegate.root.octave];
 }
 
 -(IBAction)changeScale: (id) sender {
-	if (self.changeScaleViewController == nil) {
-		self.changeScaleViewController = [[ChangeScaleViewController alloc] 
+    if (self.changeScaleViewController == nil) {
+        self.changeScaleViewController = [[ChangeScaleViewController alloc] 
 										  initWithNibName: @"ChangeScaleViewController" bundle: nil];
-		[self.view addSubview: self.changeScaleViewController.view];
-		self.changeScaleViewController.delegate = self;
-	} else {
-		self.changeScaleViewController.view.hidden = !self.changeScaleViewController.view.hidden;
-	}
+        [self.view addSubview: self.changeScaleViewController.view];
+        self.changeScaleViewController.delegate = self;
+    } else {
+        self.changeScaleViewController.view.hidden = !self.changeScaleViewController.view.hidden;
+    }
 }
 
 -(IBAction)toggleDisplay: (id) sender {
-	delegate.displayNames = ((UISwitch *)sender).on;
+    delegate.displayNames = ((UISwitch *)sender).on;
 }
 
 -(IBAction)changeInstrument: (id) sender {
-	switch ([sender selectedSegmentIndex]) {
-		case 0:
-			self.delegate.newInstrument = @"Piano";
-			break;
-		case 1:
-			self.delegate.newInstrument = @"CleanGuitar";
-		default:
-			break;
-	}
+    switch ([sender selectedSegmentIndex]) {
+        case 0:
+        self.delegate.newInstrument = @"Piano";
+            break;
+        case 1:
+            self.delegate.newInstrument = @"CleanGuitar";
+        default:
+        break;
+    }
 }
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -62,7 +62,7 @@
 */
 
 - (void)viewDidLoad {
-	self.changeScaleViewController = nil;
+    self.changeScaleViewController = nil;
     [super viewDidLoad];
 }
 
@@ -90,8 +90,8 @@
 
 
 - (void)dealloc {
-	[scaleLabel release];
-	[changeScaleViewController release];
+    [scaleLabel release];
+    [changeScaleViewController release];
     [super dealloc];
 }
 
