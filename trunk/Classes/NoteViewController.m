@@ -23,25 +23,47 @@
 
 @synthesize root, currentScale, notes, noteButtons, player;
 @synthesize menuViewController;
-@synthesize displayNames, instrument, newInstrument;
+@synthesize displayNames, instrument, newInstrument, recorder, recording, startTime;
 
 //Play a note when the button is pressed
--(IBAction)notePressed: (id) sender {
+-(IBAction) notePressed: (id) sender {
     int sound = ((UIControl*)sender).tag; 
     [self.player playNote:sound gain:1.0f];
+    if (self.recording) {
+        [self.recorder recordNoteWithMidiNumber:sound andDelay: fabs([startTime timeIntervalSinceNow])];
+        self.startTime = [NSDate date];
+    }
+}
+
+
+-(IBAction) recordPressed: (id) sender {
+    if (self.recording) {
+        [sender setTitle:@"Record"];
+    } else {
+        [sender setTitle:@"Stop"];
+        [self.recorder clearSequence];
+        self.startTime = [NSDate date];
+    }
+    self.recording = !self.recording;
+}
+
+-(IBAction) playPressed: (id) sender {
+    if (!self.recording) {
+        [self.recorder playSequenceWithSoundBank: self.player];
+    }
 }
 
 // If the menu is nil, create it.
 // If it's hidden, make it visible.
 // If it's visible, hide it.
--(IBAction)menuButtonPressed: (id) sender {
+-(IBAction) menuButtonPressed: (id) sender {
     if (self.menuViewController == nil) {
         self.menuViewController = [[MenuViewController alloc]
                                    initWithNibName:@"MenuViewController" bundle:nil];
         self.menuViewController.delegate = self;
         [self.view addSubview: self.menuViewController.view];
     } else {
-        if(!self.menuViewController.view.hidden) {
+        if (!self.menuViewController.view.hidden) {
             [self updateUI];
         }
         self.menuViewController.view.hidden = !self.menuViewController.view.hidden;
@@ -73,8 +95,11 @@
     self.displayNames = YES;
     player = [[SoundBankPlayer alloc] init];
     self.newInstrument = @"Piano";
+    self.recording = NO;
+    self.recorder = [[Recorder alloc] init];
     self.instrument = nil;
 	
+    //initialize local variables
     int x = 0;
     int y = 0;
     int horizontalSpace = (self.view.frame.size.width - ((BUTTONS_PER_ROW) * BUTTON_SIDE)) / (BUTTONS_PER_ROW - 1);
@@ -109,7 +134,7 @@
     [super viewDidLoad];
 }
 
--(void)didReceiveMemoryWarning {
+-(void) didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
 	
@@ -122,7 +147,7 @@
 }
 
 //Updates the notes when the scale changes
--(void)updateNotes {
+-(void) updateNotes {
     [self.notes removeAllObjects];
     int octavesInGrid = NUMBER_OF_BUTTONS / [currentScale.halfSteps count] + 1;
     Note *nextRoot = [[Note alloc] initWithName: self.root.name andOctave: self.root.octave];
@@ -147,7 +172,7 @@
     }
 }
 
-- (void)updateInstrument {
+- (void) updateInstrument {
     if (![self.instrument isEqualToString: self.newInstrument]) {
         self.instrument = [[NSString stringWithFormat:@"%@", self.newInstrument] retain];
         [player setSoundBank: self.instrument];
@@ -161,7 +186,7 @@
     [self updateInstrument]; 
 }
 
-- (void)dealloc {
+- (void) dealloc {
     [currentScale release];
     [notes release];
     [noteButtons release];
@@ -171,6 +196,8 @@
     [player release];
     [instrument release];
     [newInstrument release];
+    [startTime release];
+    [recorder release];
     [super dealloc];
 }
 
