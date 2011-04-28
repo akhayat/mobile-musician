@@ -60,6 +60,18 @@
 						<int key="IBUIBarStyle">1</int>
 						<object class="NSMutableArray" key="IBUIItems">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBUIBarButtonItem" id="77954758">
+								<string key="IBUITitle">Record</string>
+								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<int key="IBUIStyle">1</int>
+								<reference key="IBUIToolbar" ref="871229771"/>
+							</object>
+							<object class="IBUIBarButtonItem" id="71117520">
+								<string key="IBUITitle">Play</string>
+								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<int key="IBUIStyle">1</int>
+								<reference key="IBUIToolbar" ref="871229771"/>
+							</object>
 							<object class="IBUIBarButtonItem" id="249354755">
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<reference key="IBUIToolbar" ref="871229771"/>
@@ -139,6 +151,22 @@
 					</object>
 					<int key="connectionID">105</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">recordPressed:</string>
+						<reference key="source" ref="77954758"/>
+						<reference key="destination" ref="1012149262"/>
+					</object>
+					<int key="connectionID">108</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">playPressed:</string>
+						<reference key="source" ref="71117520"/>
+						<reference key="destination" ref="1012149262"/>
+					</object>
+					<int key="connectionID">109</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -183,6 +211,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="673720901"/>
 							<reference ref="249354755"/>
+							<reference ref="77954758"/>
+							<reference ref="71117520"/>
 						</object>
 						<reference key="parent" ref="117978783"/>
 					</object>
@@ -207,6 +237,16 @@
 						<reference key="object" ref="1012149262"/>
 						<reference key="parent" ref="0"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">106</int>
+						<reference key="object" ref="77954758"/>
+						<reference key="parent" ref="871229771"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">107</int>
+						<reference key="object" ref="71117520"/>
+						<reference key="parent" ref="871229771"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -221,6 +261,8 @@
 					<string>103.CustomClassName</string>
 					<string>103.IBEditorWindowLastContentRect</string>
 					<string>103.IBPluginDependency</string>
+					<string>106.IBPluginDependency</string>
+					<string>107.IBPluginDependency</string>
 					<string>12.IBEditorWindowLastContentRect</string>
 					<string>12.IBPluginDependency</string>
 					<string>17.IBPluginDependency</string>
@@ -243,7 +285,9 @@
 					<string>NoteViewController</string>
 					<string>{{761, 371}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{901, 426}, {320, 480}}</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>{{1156, 437}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
@@ -272,7 +316,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">105</int>
+			<int key="maxID">109</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -342,9 +386,13 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>menuButtonPressed:</string>
 							<string>notePressed:</string>
+							<string>playPressed:</string>
+							<string>recordPressed:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -355,6 +403,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>menuButtonPressed:</string>
 							<string>notePressed:</string>
+							<string>playPressed:</string>
+							<string>recordPressed:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -364,6 +414,14 @@
 							</object>
 							<object class="IBActionInfo">
 								<string key="name">notePressed:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">playPressed:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">recordPressed:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>

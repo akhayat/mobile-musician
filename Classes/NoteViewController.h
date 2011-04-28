@@ -11,6 +11,7 @@
 #import "Note.h"
 #import "NoteView.h"
 #import "Scale.h"
+#import "Recorder.h"
 
 @class MenuViewController;
 
@@ -24,14 +25,17 @@
 
 @interface NoteViewController : UIViewController <NoteViewControllerDelegate> {
     @private Note *root;
-    @private Scale *currentScale;
-    @private NSMutableArray *notes;
-    @private NSMutableArray *noteButtons;
-    @private SoundBankPlayer *player;
-    @private MenuViewController *menuViewController;
-    @private NSString *instrument;
-    @private NSString *newInstrument;
-    @private BOOL displayNames;
+             Scale *currentScale;
+             NSMutableArray *notes;
+             NSMutableArray *noteButtons;
+             SoundBankPlayer *player;
+             MenuViewController *menuViewController;
+             NSString *instrument;
+             NSString *newInstrument;
+             BOOL displayNames;
+             BOOL recording;
+             Recorder *recorder;
+             NSDate *startTime;
 }
 @property (retain) Note *root;
 @property (retain) Scale *currentScale;
@@ -39,11 +43,15 @@
 @property (retain) NSMutableArray *noteButtons;
 @property (retain, readonly) SoundBankPlayer *player;
 @property (retain) MenuViewController *menuViewController;
-@property BOOL displayNames;
 @property (retain) NSString *instrument;
+@property (retain) Recorder *recorder;
+@property (retain) NSDate *startTime;
+@property BOOL displayNames;
+@property BOOL recording;
 
 -(IBAction)notePressed: (id)sender;
+-(IBAction)playPressed: (id)sender;
+-(IBAction)recordPressed: (id)sender;
 -(IBAction)menuButtonPressed: (id)sender;
 
 @end
-
