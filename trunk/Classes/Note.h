@@ -15,7 +15,7 @@
 /* 
  * Enum for note names.  Had to use S for sharp because # is
  * reserved for preprocesser declerations. The integer the enum 
- * represents is the number of halfsteps from A. 
+ * represents is the number of halfsteps from C. 
  */
 typedef enum note_name {C, BS=C, CS, Db=CS, D, DS, Eb=DS, 
 	E, Fb=E, ES, F=ES, FS, Gb=FS, G, GS, Ab=GS, A, AS, Bb=AS, B, Cb=B} note_name;
