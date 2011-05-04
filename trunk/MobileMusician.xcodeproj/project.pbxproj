@@ -42,8 +42,24 @@
 		C0486406133C771C009972F0 /* P200 Piano G#9.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04863F1133C771C009972F0 /* P200 Piano G#9.caf */; };
 		C0486407133C771C009972F0 /* Piano.plist in Resources */ = {isa = PBXBuildFile; fileRef = C04863F2133C771C009972F0 /* Piano.plist */; };
 		C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0486409133C772A009972F0 /* SoundBankPlayer.m */; };
+		C04F90F1136D37CE001CB74E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F0136D37CE001CB74E /* Icon.png */; };
+		C04F9101136D3901001CB74E /* DistB2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F3136D3901001CB74E /* DistB2.caf */; };
+		C04F9102136D3901001CB74E /* DistC#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F4136D3901001CB74E /* DistC#7.caf */; };
+		C04F9103136D3901001CB74E /* DistC4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F5136D3901001CB74E /* DistC4.caf */; };
+		C04F9104136D3901001CB74E /* DistC5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F6136D3901001CB74E /* DistC5.caf */; };
+		C04F9105136D3901001CB74E /* DistC6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F7136D3901001CB74E /* DistC6.caf */; };
+		C04F9106136D3901001CB74E /* DistE3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F8136D3901001CB74E /* DistE3.caf */; };
+		C04F9107136D3901001CB74E /* DistE4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90F9136D3901001CB74E /* DistE4.caf */; };
+		C04F9108136D3901001CB74E /* DistE5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90FA136D3901001CB74E /* DistE5.caf */; };
+		C04F9109136D3901001CB74E /* DistE6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90FB136D3901001CB74E /* DistE6.caf */; };
+		C04F910A136D3901001CB74E /* DistE7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90FC136D3901001CB74E /* DistE7.caf */; };
+		C04F910B136D3901001CB74E /* DistG#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90FD136D3901001CB74E /* DistG#3.caf */; };
+		C04F910C136D3901001CB74E /* DistG#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90FE136D3901001CB74E /* DistG#4.caf */; };
+		C04F910D136D3901001CB74E /* DistG#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F90FF136D3901001CB74E /* DistG#5.caf */; };
+		C04F910E136D3901001CB74E /* DistG#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C04F9100136D3901001CB74E /* DistG#6.caf */; };
+		C04F9114136D39C3001CB74E /* DistortedGuitar.plist in Resources */ = {isa = PBXBuildFile; fileRef = C04F9113136D39C3001CB74E /* DistortedGuitar.plist */; };
+		C05438AE137128A6000CF28D /* CustomScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05438AD137128A6000CF28D /* CustomScaleViewController.m */; };
 		C076FC241320A6C400274EE7 /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC231320A6C400274EE7 /* Scale.m */; };
-		C076FC311320C40700274EE7 /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = C076FC301320C40700274EE7 /* NoteView.m */; };
 		C092F163130A140E0014A226 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C092F162130A140E0014A226 /* Note.m */; };
 		C097C3B8135FBA2700B17270 /* CleanB2.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AA135FBA2700B17270 /* CleanB2.caf */; };
 		C097C3B9135FBA2700B17270 /* CleanC#7.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3AB135FBA2700B17270 /* CleanC#7.caf */; };
@@ -59,7 +75,7 @@
 		C097C3C3135FBA2700B17270 /* CleanG#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B5135FBA2700B17270 /* CleanG#4.caf */; };
 		C097C3C4135FBA2700B17270 /* CleanG#5.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B6135FBA2700B17270 /* CleanG#5.caf */; };
 		C097C3C5135FBA2700B17270 /* CleanG#6.caf in Resources */ = {isa = PBXBuildFile; fileRef = C097C3B7135FBA2700B17270 /* CleanG#6.caf */; };
-		C09E47F81344128F00F57740 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C09E47F71344128F00F57740 /* icon.png */; };
+		C0D11D95136F5171003803DF /* CustomScaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0D11D93136F5171003803DF /* CustomScaleViewController.xib */; };
 		C0E889E01368BA4A0021AC4B /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E889DF1368BA4A0021AC4B /* Recorder.m */; };
 		C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F94C8F1352CA14004B78E7 /* MenuViewController.m */; };
 		C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F94C901352CA14004B78E7 /* MenuViewController.xib */; };
@@ -81,7 +97,7 @@
 		C012FAB7135D14E700804977 /* CleanGuitar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CleanGuitar.plist; sourceTree = "<group>"; };
 		C013CF83135BDFA2006567F2 /* ChangeScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeScaleViewController.h; sourceTree = "<group>"; };
 		C013CF84135BDFA2006567F2 /* ChangeScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeScaleViewController.m; sourceTree = "<group>"; };
-		C013CF85135BDFA2006567F2 /* ChangeScaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChangeScaleViewController.xib; path = Classes/ChangeScaleViewController.xib; sourceTree = "<group>"; };
+		C013CF85135BDFA2006567F2 /* ChangeScaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeScaleViewController.xib; sourceTree = "<group>"; };
 		C04863AD133C76B2009972F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C04863BB133C76C9009972F0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		C04863D5133C76FA009972F0 /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
@@ -109,10 +125,26 @@
 		C04863F2133C771C009972F0 /* Piano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Piano.plist; sourceTree = "<group>"; };
 		C0486408133C772A009972F0 /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
 		C0486409133C772A009972F0 /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
+		C04F90F0136D37CE001CB74E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C04F90F3136D3901001CB74E /* DistB2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistB2.caf; sourceTree = "<group>"; };
+		C04F90F4136D3901001CB74E /* DistC#7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DistC#7.caf"; sourceTree = "<group>"; };
+		C04F90F5136D3901001CB74E /* DistC4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistC4.caf; sourceTree = "<group>"; };
+		C04F90F6136D3901001CB74E /* DistC5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistC5.caf; sourceTree = "<group>"; };
+		C04F90F7136D3901001CB74E /* DistC6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistC6.caf; sourceTree = "<group>"; };
+		C04F90F8136D3901001CB74E /* DistE3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistE3.caf; sourceTree = "<group>"; };
+		C04F90F9136D3901001CB74E /* DistE4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistE4.caf; sourceTree = "<group>"; };
+		C04F90FA136D3901001CB74E /* DistE5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistE5.caf; sourceTree = "<group>"; };
+		C04F90FB136D3901001CB74E /* DistE6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistE6.caf; sourceTree = "<group>"; };
+		C04F90FC136D3901001CB74E /* DistE7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistE7.caf; sourceTree = "<group>"; };
+		C04F90FD136D3901001CB74E /* DistG#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DistG#3.caf"; sourceTree = "<group>"; };
+		C04F90FE136D3901001CB74E /* DistG#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DistG#4.caf"; sourceTree = "<group>"; };
+		C04F90FF136D3901001CB74E /* DistG#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DistG#5.caf"; sourceTree = "<group>"; };
+		C04F9100136D3901001CB74E /* DistG#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DistG#6.caf"; sourceTree = "<group>"; };
+		C04F9113136D39C3001CB74E /* DistortedGuitar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistortedGuitar.plist; sourceTree = "<group>"; };
+		C05438AC1371285F000CF28D /* CustomScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScaleViewController.h; sourceTree = "<group>"; };
+		C05438AD137128A6000CF28D /* CustomScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScaleViewController.m; sourceTree = "<group>"; };
 		C076FC221320A6C400274EE7 /* Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
 		C076FC231320A6C400274EE7 /* Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scale.m; sourceTree = "<group>"; };
-		C076FC2F1320C40700274EE7 /* NoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteView.h; sourceTree = "<group>"; };
-		C076FC301320C40700274EE7 /* NoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
 		C092F161130A140E0014A226 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
 		C092F162130A140E0014A226 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		C097C3AA135FBA2700B17270 /* CleanB2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CleanB2.caf; sourceTree = "<group>"; };
@@ -129,12 +161,12 @@
 		C097C3B5135FBA2700B17270 /* CleanG#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#4.caf"; sourceTree = "<group>"; };
 		C097C3B6135FBA2700B17270 /* CleanG#5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#5.caf"; sourceTree = "<group>"; };
 		C097C3B7135FBA2700B17270 /* CleanG#6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CleanG#6.caf"; sourceTree = "<group>"; };
-		C09E47F71344128F00F57740 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Downloads/icon.png; sourceTree = SOURCE_ROOT; };
+		C0D11D93136F5171003803DF /* CustomScaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomScaleViewController.xib; sourceTree = "<group>"; };
 		C0E889DE1368BA4A0021AC4B /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recorder.h; sourceTree = "<group>"; };
 		C0E889DF1368BA4A0021AC4B /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recorder.m; sourceTree = "<group>"; };
 		C0F94C8E1352CA14004B78E7 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C0F94C8F1352CA14004B78E7 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		C0F94C901352CA14004B78E7 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Classes/MenuViewController.xib; sourceTree = "<group>"; };
+		C0F94C901352CA14004B78E7 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +194,6 @@
 				28D7ACF70DDB3853001CB0EB /* NoteViewController.m */,
 				C0E889DE1368BA4A0021AC4B /* Recorder.h */,
 				C0E889DF1368BA4A0021AC4B /* Recorder.m */,
-				C076FC2F1320C40700274EE7 /* NoteView.h */,
-				C076FC301320C40700274EE7 /* NoteView.m */,
 				C076FC221320A6C400274EE7 /* Scale.h */,
 				C076FC231320A6C400274EE7 /* Scale.m */,
 				C092F161130A140E0014A226 /* Note.h */,
@@ -176,6 +206,8 @@
 				C0F94C8F1352CA14004B78E7 /* MenuViewController.m */,
 				C013CF83135BDFA2006567F2 /* ChangeScaleViewController.h */,
 				C013CF84135BDFA2006567F2 /* ChangeScaleViewController.m */,
+				C05438AC1371285F000CF28D /* CustomScaleViewController.h */,
+				C05438AD137128A6000CF28D /* CustomScaleViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -217,6 +249,7 @@
 				C0F94C901352CA14004B78E7 /* MenuViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MobileMusician-Info.plist */,
+				C0D11D93136F5171003803DF /* CustomScaleViewController.xib */,
 				C013CF85135BDFA2006567F2 /* ChangeScaleViewController.xib */,
 			);
 			name = Resources;
@@ -237,6 +270,21 @@
 		C04863DD133C771B009972F0 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				C04F9113136D39C3001CB74E /* DistortedGuitar.plist */,
+				C04F90F3136D3901001CB74E /* DistB2.caf */,
+				C04F90F4136D3901001CB74E /* DistC#7.caf */,
+				C04F90F5136D3901001CB74E /* DistC4.caf */,
+				C04F90F6136D3901001CB74E /* DistC5.caf */,
+				C04F90F7136D3901001CB74E /* DistC6.caf */,
+				C04F90F8136D3901001CB74E /* DistE3.caf */,
+				C04F90F9136D3901001CB74E /* DistE4.caf */,
+				C04F90FA136D3901001CB74E /* DistE5.caf */,
+				C04F90FB136D3901001CB74E /* DistE6.caf */,
+				C04F90FC136D3901001CB74E /* DistE7.caf */,
+				C04F90FD136D3901001CB74E /* DistG#3.caf */,
+				C04F90FE136D3901001CB74E /* DistG#4.caf */,
+				C04F90FF136D3901001CB74E /* DistG#5.caf */,
+				C04F9100136D3901001CB74E /* DistG#6.caf */,
 				C097C3AA135FBA2700B17270 /* CleanB2.caf */,
 				C097C3AB135FBA2700B17270 /* CleanC#7.caf */,
 				C097C3AC135FBA2700B17270 /* CleanC4.caf */,
@@ -280,7 +328,7 @@
 		C09E47F21344127A00F57740 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				C09E47F71344128F00F57740 /* icon.png */,
+				C04F90F0136D37CE001CB74E /* Icon.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -359,7 +407,6 @@
 				C0486405133C771C009972F0 /* P200 Piano F#7.caf in Resources */,
 				C0486406133C771C009972F0 /* P200 Piano G#9.caf in Resources */,
 				C0486407133C771C009972F0 /* Piano.plist in Resources */,
-				C09E47F81344128F00F57740 /* icon.png in Resources */,
 				C0F94C921352CA14004B78E7 /* MenuViewController.xib in Resources */,
 				C013CF87135BDFA2006567F2 /* ChangeScaleViewController.xib in Resources */,
 				C012FAB8135D14E700804977 /* CleanGuitar.plist in Resources */,
@@ -377,6 +424,23 @@
 				C097C3C3135FBA2700B17270 /* CleanG#4.caf in Resources */,
 				C097C3C4135FBA2700B17270 /* CleanG#5.caf in Resources */,
 				C097C3C5135FBA2700B17270 /* CleanG#6.caf in Resources */,
+				C04F90F1136D37CE001CB74E /* Icon.png in Resources */,
+				C04F9101136D3901001CB74E /* DistB2.caf in Resources */,
+				C04F9102136D3901001CB74E /* DistC#7.caf in Resources */,
+				C04F9103136D3901001CB74E /* DistC4.caf in Resources */,
+				C04F9104136D3901001CB74E /* DistC5.caf in Resources */,
+				C04F9105136D3901001CB74E /* DistC6.caf in Resources */,
+				C04F9106136D3901001CB74E /* DistE3.caf in Resources */,
+				C04F9107136D3901001CB74E /* DistE4.caf in Resources */,
+				C04F9108136D3901001CB74E /* DistE5.caf in Resources */,
+				C04F9109136D3901001CB74E /* DistE6.caf in Resources */,
+				C04F910A136D3901001CB74E /* DistE7.caf in Resources */,
+				C04F910B136D3901001CB74E /* DistG#3.caf in Resources */,
+				C04F910C136D3901001CB74E /* DistG#4.caf in Resources */,
+				C04F910D136D3901001CB74E /* DistG#5.caf in Resources */,
+				C04F910E136D3901001CB74E /* DistG#6.caf in Resources */,
+				C04F9114136D39C3001CB74E /* DistortedGuitar.plist in Resources */,
+				C0D11D95136F5171003803DF /* CustomScaleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,12 +456,12 @@
 				28D7ACF80DDB3853001CB0EB /* NoteViewController.m in Sources */,
 				C092F163130A140E0014A226 /* Note.m in Sources */,
 				C076FC241320A6C400274EE7 /* Scale.m in Sources */,
-				C076FC311320C40700274EE7 /* NoteView.m in Sources */,
 				C04863D7133C76FA009972F0 /* OpenALSupport.c in Sources */,
 				C048640A133C772A009972F0 /* SoundBankPlayer.m in Sources */,
 				C0F94C911352CA14004B78E7 /* MenuViewController.m in Sources */,
 				C013CF86135BDFA2006567F2 /* ChangeScaleViewController.m in Sources */,
 				C0E889E01368BA4A0021AC4B /* Recorder.m in Sources */,
+				C05438AE137128A6000CF28D /* CustomScaleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

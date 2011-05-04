@@ -14,13 +14,18 @@
     @private NSMutableArray *recordedNotes;
              NSMutableArray *delay;
              SoundBankPlayer *bank;
+             BOOL playing;
 }
 @property (readonly) NSMutableArray *recordedNotes;
 @property (readonly) NSMutableArray *delay;
 @property (readonly) SoundBankPlayer *bank;
+@property (readonly) BOOL playing;
 
 -(void) playSequenceWithSoundBank: (SoundBankPlayer *)bank;
 -(void) recordNoteWithMidiNumber:(int)midiNumber andDelay:(NSTimeInterval)delayTime;
 -(void) clearSequence;
+-(void) readSequenceFromFile;
+-(void) saveSequence;
+-(double) totalRecordTime;
 
 @end

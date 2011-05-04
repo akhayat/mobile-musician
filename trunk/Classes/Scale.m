@@ -88,7 +88,7 @@
 	NSMutableArray *noteArray = [NSMutableArray array];
 	Note *nextNote = [[Note alloc] initWithName:root.name andOctave:root.octave];
 	[noteArray addObject:nextNote];
-	
+	[nextNote autorelease];
 	for (NSNumber *step in self.halfSteps) {
 		nextNote = [nextNote stepUp: [step intValue]];
 		[noteArray addObject:nextNote];

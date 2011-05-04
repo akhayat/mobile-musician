@@ -9,8 +9,7 @@
 #import "Note.h"
 
 
-static NSArray *notesWithSharps = nil;
-static NSArray *notesWithFlats = nil;
+static NSArray *notesAsStrings= nil;
 
 @implementation Note
 
@@ -20,10 +19,8 @@ static NSArray *notesWithFlats = nil;
 	if (self = [super init]) {
 		name = note;
 		octave = oct;
-		notesWithSharps = [[NSArray arrayWithObjects: @"C", @"C#", @"D", @"D#", 
+		notesAsStrings = [[NSArray arrayWithObjects: @"C", @"C#", @"D", @"D#", 
 						@"E", @"F", @"F#", @"G", @"G#", @"A", @"A#", @"B", nil] retain];
-		notesWithFlats = [[NSArray arrayWithObjects: @"C", @"Db", @"D", @"Eb", 
-						  @"E", @"F", @"Gb", @"G", @"Ab", @"A", @"Bb", @"B", nil] retain];
 		midiNumber = name + HALF_STEPS_IN_OCTAVE * octave;
 	}
 	return self;
@@ -46,7 +43,7 @@ static NSArray *notesWithFlats = nil;
 }
 
 -(NSString*)nameAsString {
-	return [notesWithSharps objectAtIndex:self.name];
+	return [notesAsStrings objectAtIndex:self.name];
 }
 
 - (void)dealloc {
