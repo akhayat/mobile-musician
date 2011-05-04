@@ -8,12 +8,11 @@
 
 #import "MenuViewController.h"
 #import "ChangeScaleViewController.h"
+#import "CustomScaleViewController.h"
 
 @implementation MenuViewController
 
-@synthesize delegate;
-@synthesize changeScaleViewController;
-@synthesize scaleLabel;
+@synthesize delegate, changeScaleViewController, scaleLabel, customScaleViewController;
 
 -(IBAction)closeButtonPressed: (id) sender {
     [self.delegate menuButtonPressed: sender];
@@ -28,8 +27,13 @@
     if (self.changeScaleViewController == nil) {
         self.changeScaleViewController = [[ChangeScaleViewController alloc] 
 										  initWithNibName: @"ChangeScaleViewController" bundle: nil];
+        self.customScaleViewController = [[CustomScaleViewController alloc] 
+										  initWithNibName: @"CustomScaleViewController" bundle: nil];
         [self.view addSubview: self.changeScaleViewController.view];
+        [self.view addSubview: self.customScaleViewController.view];
         self.changeScaleViewController.delegate = self;
+        self.customScaleViewController.delegate = self;
+        self.customScaleViewController.view.hidden = YES;
     } else {
         self.changeScaleViewController.view.hidden = !self.changeScaleViewController.view.hidden;
     }
@@ -46,52 +50,41 @@
             break;
         case 1:
             self.delegate.newInstrument = @"CleanGuitar";
-        default:
+            break;
+        case 2:
+            self.delegate.newInstrument = @"DistortedGuitar";
+        default: break;
         break;
     }
 }
 
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+-(IBAction)randomizePressed: (id) sender {
+    if(!self.delegate.randomized) {
+        [sender setTitle:@"De-randomize" forState:UIControlStateNormal];
+    } else {
+        [sender setTitle:@"Randomize" forState:UIControlStateNormal];
     }
-    return self;
+    self.delegate.randomized = !self.delegate.randomized;
 }
-*/
 
 - (void)viewDidLoad {
     self.changeScaleViewController = nil;
     [super viewDidLoad];
 }
 
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc. that aren't in use.
 }
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    self.scaleLabel = nil;
 }
-
 
 - (void)dealloc {
     [scaleLabel release];
     [changeScaleViewController release];
+    [customScaleViewController release];
     [super dealloc];
 }
 

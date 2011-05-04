@@ -9,9 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "SoundBankPlayer.h"
 #import "Note.h"
-#import "NoteView.h"
 #import "Scale.h"
 #import "Recorder.h"
+
+#define MAX_RECORD_TIME 15.0
+#define BUTTON_SIDE 60
+#define BUTTONS_PER_ROW 5
+#define BUTTONS_PER_COLUMN 6
+#define NUMBER_OF_BUTTONS BUTTONS_PER_ROW * BUTTONS_PER_COLUMN
 
 @class MenuViewController;
 
@@ -20,8 +25,11 @@
     @property (retain) Scale *currentScale;
     @property (retain) NSString *newInstrument;
     @property BOOL displayNames; 
+    @property BOOL randomized;
     -(IBAction)menuButtonPressed: (id)sender;
 @end
+
+
 
 @interface NoteViewController : UIViewController <NoteViewControllerDelegate> {
     @private Note *root;
@@ -36,6 +44,8 @@
              BOOL recording;
              Recorder *recorder;
              NSDate *startTime;
+             BOOL randomized;
+             IBOutlet UIBarButtonItem *recordButton;
 }
 @property (retain) Note *root;
 @property (retain) Scale *currentScale;
@@ -46,12 +56,17 @@
 @property (retain) NSString *instrument;
 @property (retain) Recorder *recorder;
 @property (retain) NSDate *startTime;
+@property (retain) IBOutlet UIBarButtonItem *recordButton;
 @property BOOL displayNames;
 @property BOOL recording;
+@property BOOL randomized;
+
+
 
 -(IBAction)notePressed: (id)sender;
 -(IBAction)playPressed: (id)sender;
 -(IBAction)recordPressed: (id)sender;
 -(IBAction)menuButtonPressed: (id)sender;
+-(void)toggleRecord;
 
 @end

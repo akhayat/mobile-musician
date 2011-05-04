@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "MenuViewController.h"
 
+@class CustomScaleViewController;
 
 @interface ChangeScaleViewController : UIViewController {
     @private id<MenuViewControllerDelegate> delegate;
 }
 @property (assign) id<MenuViewControllerDelegate> delegate;
+
 
 -(IBAction)cancelButtonPressed: (id)sender;
 -(IBAction)majorScaleButton: (id) sender;
