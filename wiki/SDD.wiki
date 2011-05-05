@@ -14,9 +14,11 @@ Mobile Musician is meant to be a sort of “pocket inspiration” for musicians 
 
 *6.1.2.1 OpenAl 1.0:*  OpenAl is a third party library for playing and manipulating sounds in iOs.  It will be used to play sounds and change the pitch of existing sounds.  This will cut down on memory so I don't have to store every possible note.  The idea is to have a few notes from an instrument and use OpenAl to fill in the rest via pitch changing.
 
-*6.1.2.2 SoundBankPlayer:* SoundBankPlayer is third party software from hollance.com that does most of the work needed to communicate with OpenAl.  You give it a .plist file and some samples from the instrument and creating a new SoundBank takes care of the notes for you.  You then give it a midi number and it plays that note.
+*6.1.2.2 SoundBankPlayer:* SoundBankPlayer is third party software from hollance.com that does the work needed to communicate with OpenAl.  You give it a .plist file and some samples from the instrument and creating a new SoundBank takes care of the notes for you.  You then give it a midi number and it plays that note.
 
-*6.1.2.2 Model-View-Controller:*  Since this project follows a strict Model-View-Controller architecture,  most of the internal software interfaces are the interaction  between the view and their associated controllers, as well as the model and the controllers.  
+*6.1.2.3 Model-View-Controller:*  Since this project follows a strict Model-View-Controller architecture,  most of the internal software interfaces are the interaction  between the view and their associated controllers, as well as the model and the controllers.  
+
+*6.1.2.4 OCUnit:* Some automated tests need to be run on the logic of the Note and Scale Classes.  This will be accomplished through use of the OCUnit Testing Framework, which provides methods for assertions. 
 
 ==6.2 Architecture Design==
 
@@ -40,8 +42,6 @@ See Top Level Diagram in [http://code.google.com/p/mobile-musician/downloads/lis
 
 See Use Case Diagram in [http://code.google.com/p/mobile-musician/downloads/list Downloads]
 
-*6.2.3.3*
-
 ==6.3 CSC and CSU Description==
 
 Unsurprisingly, the three CSC's of the project are the “Mobile Musician Models,” “Mobile Musician View Controllers,” and “Mobile Musician View.”  In the model CSC, the classes are Note, Scale, Recorder, and SoundPlayer.  In the views CSC, the CSUs are NoteView, MenuView, ChangeScaleView, and CreateScaleView.  There is one controller for each view, so there is the NoteViewController, MenuViewController, ChangeScaleViewController, and the CreateScaleViewController.  
@@ -63,13 +63,12 @@ The following sections provide the details of Mobile Musician.
         * stepUp: Takes in a number of half steps and returns the note that many half steps up.
         * stepDown: Same as stepUp but returns the note that many half steps down. 
 	
-	6.3.2.2 SoundPlayer
+	6.3.2.2 SoundBankPlayer
 
 	Wrapper around OpenAl to play sound.
 
 	Methods:
-        * playSound: Takes in a path to a file and outputs a sound.  
-        * changePitch: Takes in a path to a file and a pitch and plays the file at the new pitch.	  
+        * play: Plays a note based on the midi number passed.  	  
 
 	6.3.2.3 Scale
 
@@ -129,7 +128,7 @@ The following sections provide the details of Mobile Musician.
         * scalePressed: Handles a scale button being pressed.
         * createNewPressed: Handles the createNewScale button being pressed.  
 
-	6.3.2.8 CreateScaleViewController 
+	6.3.2.8 CustomScaleViewController 
 
 	Handles the input from the CreateScaleView class. 
 
@@ -151,4 +150,4 @@ See Downloads for all diagrams.
 
 ==6.4 Database Design and Description==
 
-Since there is no persistence in this application, there is no database.  
+Since there is minimal persistence in this application, there is no database.  
