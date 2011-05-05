@@ -17,7 +17,7 @@ The Configuration Management process that will be used in this project involves 
 
 === 7.1.2 Configuration Control ===
 
-The main tool for configuration control is SVN (Subversion) via google code. Code for Mobile Musician will be committed to the repository in the project site.  SVN allows committing via the command line, and there is also SVN built into Xcode.  Other commands, such as deleting files in the repository, checking out code from the repository, and reverting to an older version stored in the repository are available.
+The main tool for configuration control is SVN (Subversion) via Google Code. Code for Mobile Musician will be committed to the repository in the project site.  SVN allows committing via the command line, and there is also SVN built into Xcode.  Other commands, such as deleting files in the repository, checking out code from the repository, and reverting to an older version stored in the repository are available.
 
 ==== 7.1.2.1 Document and Software Release ====
 
