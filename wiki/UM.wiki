@@ -38,12 +38,12 @@ This document is the User's Manual and Installation Guide for Mobile Musician.  
 ==== 9.5.1 Instrument ==== 
 
   * To change the instrument, press the button with the instrument you want.
-  * The button you pressed should be hi-lighted.
+  * The button you pressed should be highlighted.
 
 ==== 9.5.2 Root ==== 
 
   * To change the root, touch the desired note.
-  * The note pressed should be hi-lighted.
+  * The note pressed should be highlighted.
 
 ==== 9.5.3 Note Name Display ====
 
@@ -63,13 +63,28 @@ This document is the User's Manual and Installation Guide for Mobile Musician.  
 
 ==== 9.6.2 Custom Scales ====
 
-  * To bring up the Create Scale View, touch the Create New Scale Button.
+  * To bring up the Custom Scale View, touch the Custom Scale Button.
 
-== 9.7 Create Scale View ==
+== 9.7 Custom Scale View ==
 
-  * Twelve buttons with the numbers 1-12 should appear.
-  * Touch the buttons you wish to be included in your scale.
-  * These buttons should be hi-lighted.
-  * Touch a hi-lighted button to deselect it.
-  * Touch create to create the scale.
+  * Twelve buttons from C to B should appear
+  * Touch the buttons you wish to be included in your scale, assuming C as the root.
+  * These buttons should be highlighted.
+  * Touch a highlighted button to deselect it.
+  * Touch "Done" to create your scale or X to cancel.
+  * You need at least 4 notes to create a scale.
   * You should be returned to the Note View.  
+
+== 9.8 Recording and Playing Back a Sequence ==
+
+==== 9.8.1 Reecording ====
+
+  * To Record a sequence, press Record in the Note View.
+  * Press the buttons you wish to record.
+  * Press Stop to stop recording.
+  * You can only record up to 15 seconds and you cannot open the Menu during recording.
+  * Recording Overwrite any previous sequence, but the sequence is saved even when the user quits the application.
+
+==== 9.8.2 Playback ====
+
+  * To play a recording sequence, press the play button.  
